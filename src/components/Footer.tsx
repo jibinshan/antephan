@@ -7,7 +7,7 @@ const Footer = ({ }) => {
     <footer className="z-50 flex flex-col h-full w-full items-center justify-center gap-14 bg-[#2d0912] px-2 py-12">
       <div className="flex w-full justify-center items-center gap-4">
         <Image
-          src="/images/logo.png"
+          src="/images/home/hero/logo.png"
           width={188}
           height={57}
           alt="logo"

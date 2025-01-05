@@ -2,14 +2,25 @@ import "@/styles/globals.css";
 
 import { cn } from "@/lib/utils";
 import { type Metadata } from "next";
-import { Oswald, Roboto, Playfair_Display, Bai_Jamjuree, Forum, Josefin_Sans, Poppins, Joan, Mrs_Saint_Delafield, Montserrat, Cormorant } from "next/font/google";
+import {
+  Oswald,
+  Roboto,
+  Playfair_Display,
+  Bai_Jamjuree,
+  Forum,
+  Josefin_Sans,
+  Poppins,
+  Joan,
+  Mrs_Saint_Delafield,
+  Montserrat,
+  Cormorant,
+} from "next/font/google";
 import Providers from "@/app/Providers";
 
 export const metadata: Metadata = {
   title: "Antepehan",
-  description:
-    "Welcome to Antepehan, Where Every Moment Sparkles",
-  icons: [{ rel: "icon", url: "/images/logo.png" }],
+  description: "Welcome to Antepehan, Where Every Moment Sparkles",
+  icons: [{ rel: "icon", url: "/images/home/hero/logo.png" }],
 };
 
 const mrs_saint = Mrs_Saint_Delafield({
@@ -52,6 +63,6 @@ export default function RootLayout({
       >
         <Providers>{children}</Providers>
       </body>
-    </html >
+    </html>
   );
 }
