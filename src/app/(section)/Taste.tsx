@@ -72,10 +72,10 @@ const Taste: React.FC = () => {
         />
         <div>
           <p className="text-1xl md:text-1.5xl w-3/4 font-cormorant font-normal italic leading-[20px] text-white text-opacity-70">
-            The sector's deep-rooted brand Çobanoğlu flavor group, which
+            The sector`s deep-rooted brand Cobanoglu flavor group, which
             continues its dessert and baklava adventure that started in
             Gaziantep in 1984 under different brands, continues its claim in the
-            kunefe and katmer sector with the Antebim Künefe brand
+            kunefe and katmer sector with the Antebim kunefe brand
           </p>
         </div>
 
