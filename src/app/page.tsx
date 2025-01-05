@@ -1,12 +1,12 @@
 import Navbar from "@/components/Navbar";
-
-
+import HeroSection from "./(section)/(special)/Hero";
 
 export default function HomePage() {
   return (
     <main className="relative flex h-full w-full overflow-hidden">
       <div className="flex h-full w-full flex-col items-center justify-center">
-        <Navbar />
+        <Navbar position="absolute" />
+        <HeroSection />
       </div>
       {/* <div className="fixed bottom-2 right-2 z-50 hidden md:flex">
         <ViewMenu />

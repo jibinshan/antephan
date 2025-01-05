@@ -36,21 +36,27 @@ const Navbar = ({
     >
       <div className="flex h-full w-full items-center justify-between">
         <Link href="/">
-          <Image src="/images/logo.png" width={140} height={120} alt="logo" className="w-24" />
+          <Image
+            src="/images/logo.png"
+            width={140}
+            height={120}
+            alt="logo"
+            className="w-24"
+          />
         </Link>
         {!isScrolled && (
           <div className="hidden flex-row items-center justify-center gap-[3.48rem] md:flex">
             <Button
               asChild
               variant="link"
-              className="px-0 uppercase text-accent font-semibold"
+              className="px-0 font-semibold uppercase text-accent"
             >
               <Link href="/">Home</Link>
             </Button>
             <Button
               asChild
               variant="link"
-              className="px-0 uppercase text-accent font-semibold"
+              className="px-0 font-semibold uppercase text-accent"
             >
               <Link href="/menu">Menu</Link>
             </Button>
@@ -64,14 +70,14 @@ const Navbar = ({
             <Button
               asChild
               variant="link"
-              className="px-0 uppercase text-accent font-semibold"
+              className="px-0 font-semibold uppercase text-accent"
             >
               <Link href="/contact">Contact</Link>
             </Button>
             <Button
               asChild
               variant="link"
-              className="px-0 uppercase text-accent font-semibold"
+              className="px-0 font-semibold uppercase text-accent"
             >
               <Link href="/table-booking">Table Booking</Link>
             </Button>
