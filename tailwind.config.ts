@@ -20,6 +20,8 @@ export default {
       },
       colors: {
         bgBlue: "#079EBC",
+        footer: "#002A32",
+        copyRight:"#003641",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
