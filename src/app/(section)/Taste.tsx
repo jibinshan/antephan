@@ -32,16 +32,8 @@ const Taste: React.FC = () => {
           className="h-full w-full"
         />
       </div>
-      <div className="bg-bgBlue relative flex w-full flex-col justify-center gap-4 px-4 py-8 md:w-1/2 md:px-24">
-        <div>
-          <Image
-            src="/images/home/taste/vector.svg"
-            width={100}
-            height={100}
-            alt="vector"
-            className="absolute bottom-0 right-0 hidden h-[338px] w-[346px] md:block"
-          />
-        </div>
+      <div className="relative flex w-full flex-col justify-center gap-4 bg-bgBlue px-4 py-8 md:w-1/2 md:px-24">
+        <div></div>
         <div>
           <Image
             src="/images/home/taste/badam.png"
@@ -53,7 +45,7 @@ const Taste: React.FC = () => {
         </div>
         <div>
           <Image
-            src="/images/home/taste/round.png"
+            src="/images/home/taste/tyre-special.png"
             width={513}
             height={506}
             alt="round"
@@ -80,7 +72,7 @@ const Taste: React.FC = () => {
         </div>
 
         <div>
-          <Button className="ring-offset-bgBlue mt-3 rounded-none bg-black px-5 py-2 font-montserrat text-[11px] font-extralight leading-[1px] tracking-[2.40px] ring-1 ring-black ring-offset-1">
+          <Button className="mt-3 rounded-none bg-black px-5 py-2 font-montserrat text-[11px] font-extralight leading-[1px] tracking-[2.40px] ring-1 ring-black ring-offset-1 ring-offset-bgBlue">
             OUR STORY
           </Button>
         </div>

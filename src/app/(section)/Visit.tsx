@@ -16,13 +16,138 @@ const Visit: React.FC = () => {
       <div className="relative z-10 flex w-full max-w-[1300px] flex-col items-center justify-center gap-8 md:flex-row md:gap-28">
         <div className="relative">
           <div className="absolute bottom-2 left-2.5 right-2 top-4">
-            <Image
-              src="/images/home/visit/frame-visit.svg"
-              width={100}
-              height={100}
-              alt="frame"
-              className="h-[311px] w-[180px]"
-            />
+            <div className="relative">
+              <div className="absolute left-3 top-20">
+                <ul className="flex flex-col gap-2">
+                  <li>
+                    <div className="flex flex-row items-center justify-center gap-1">
+                      <p className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                        Monday
+                      </p>
+                      <Image
+                        src="/images/home/visit/line-black.svg"
+                        width={100}
+                        height={100}
+                        alt="underline"
+                        className="mt-1 hidden h-[2px] w-[70px] items-end md:block"
+                      />{" "}
+                      <span className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                        09:00 - 21:00h
+                      </span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="flex flex-row items-center justify-center gap-1">
+                      <p className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                        Tuesday
+                      </p>
+                      <Image
+                        src="/images/home/visit/line-black.svg"
+                        width={100}
+                        height={100}
+                        alt="underline"
+                        className="mt-1 hidden h-[2px] w-[70px] items-end md:block"
+                      />{" "}
+                      <span className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                        09:00 - 21:00h
+                      </span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="flex flex-row items-center justify-center gap-1">
+                      <p className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                        Wednesday
+                      </p>
+                      <Image
+                        src="/images/home/visit/line-black.svg"
+                        width={100}
+                        height={100}
+                        alt="underline"
+                        className="mt-1 hidden h-[2px] w-[60px] items-end md:block"
+                      />{" "}
+                      <span className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                        09:00 - 21:00h
+                      </span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="flex flex-row items-center justify-center gap-1">
+                      <p className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                        Thursday{" "}
+                      </p>
+                      <Image
+                        src="/images/home/visit/line-black.svg"
+                        width={100}
+                        height={100}
+                        alt="underline"
+                        className="mt-1 hidden h-[2px] w-[70px] items-end md:block"
+                      />{" "}
+                      <span className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                        09:00 - 21:00h
+                      </span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="flex flex-row items-center justify-center gap-1">
+                      <p className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                        Friday
+                      </p>
+                      <Image
+                        src="/images/home/visit/line-black.svg"
+                        width={100}
+                        height={100}
+                        alt="underline"
+                        className="mt-1 hidden h-[2px] w-[75px] items-end md:block"
+                      />{" "}
+                      <span className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                        09:00 - 21:00h
+                      </span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="flex flex-row items-center justify-center gap-1">
+                      <p className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                        Saturday
+                      </p>
+                      <Image
+                        src="/images/home/visit/line-black.svg"
+                        width={100}
+                        height={100}
+                        alt="underline"
+                        className="mt-1 hidden h-[2px] w-[70px] items-end md:block"
+                      />{" "}
+                      <span className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                        10:00 - 21:00h
+                      </span>
+                    </div>
+                  </li>
+                  <li>
+                    <div className="flex flex-row items-center justify-center gap-1">
+                      <p className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                        Sunday
+                      </p>
+                      <Image
+                        src="/images/home/visit/line-black.svg"
+                        width={100}
+                        height={100}
+                        alt="underline"
+                        className="mt-1 hidden h-[2px] w-[70px] items-end md:block"
+                      />{" "}
+                      <span className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                        12:00 - 19:00h{" "}
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <Image
+                src="/images/home/visit/frame-visit.svg"
+                width={100}
+                height={100}
+                alt="frame"
+                className="h-[311px] w-[180px]"
+              />
+            </div>
           </div>
           <Image
             src="/images/home/visit/frame-visit.svg"

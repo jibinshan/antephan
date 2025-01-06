@@ -86,37 +86,37 @@ const Footer: React.FC = () => {
             </ul>
           </div>
           <div>
-            <ul className="flex flex-row gap-4">
+            <ul className="mt-8 flex flex-row gap-5">
               <li>
                 <Link href="#">
                   <Image
-                    src="/images/home/footer/facebook.png"
+                    src="/images/home/footer/fb.png"
                     width={101}
                     height={101}
                     alt="logo"
-                    className="h-[44px] w-[44px]"
+                    className="h-[40px] w-[40px]"
                   />
                 </Link>
               </li>
               <li>
                 <Link href="#">
                   <Image
-                    src="/images/home/footer/facebook.png"
+                    src="/images/home/footer/twiter.png"
                     width={101}
                     height={101}
                     alt="logo"
-                    className="h-[44px] w-[44px]"
+                    className="h-[40px] w-[40px]"
                   />
                 </Link>
               </li>
               <li>
                 <Link href="#">
                   <Image
-                    src="/images/home/footer/facebook.png"
+                    src="/images/home/footer/insta.png"
                     width={101}
                     height={101}
                     alt="logo"
-                    className="h-[44px] w-[44px]"
+                    className="h-[40px] w-[40px]"
                   />
                 </Link>
               </li>
@@ -125,17 +125,46 @@ const Footer: React.FC = () => {
         </div>
         <div className="flex flex-col gap-14">
           <div>
-            <Image
-              src="/images/home/footer/box.svg"
-              width={100}
-              height={100}
-              alt="box"
-              className="h-[55px] w-[250px]"
-            />
+            <div className="relative">
+              <div className="absolute left-4 top-3.5">
+                <div className="flex flex-row gap-1">
+                  <Image
+                    src="/images/home/footer/location.svg"
+                    width={100}
+                    height={100}
+                    alt="box"
+                    className="h-[24px] w-[24px]"
+                  />
+                  <span className="font-montserrat text-[13px] font-medium uppercase leading-[26px] tracking-[2.4px] text-primary">
+                    Find our Location
+                  </span>
+                </div>
+              </div>
+              <Image
+                src="/images/home/footer/box.svg"
+                width={100}
+                height={100}
+                alt="box"
+                className="h-[55px] w-[250px] text-primary"
+              />
+            </div>
           </div>
           <div>
             <div className="relative">
-              <div></div>
+              <div className="absolute left-4 top-3.5">
+                <div className="flex flex-row gap-3">
+                  <Image
+                    src="/images/home/footer/menue.svg"
+                    width={100}
+                    height={100}
+                    alt="box"
+                    className="h-[24px] w-[24px]"
+                  />
+                  <span className="font-montserrat text-[13px] font-medium uppercase leading-[26px] tracking-[2.4px] text-primary">
+                    Explore Our Menu
+                  </span>
+                </div>
+              </div>
               <Image
                 src="/images/home/footer/box.svg"
                 width={100}

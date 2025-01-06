@@ -9,6 +9,7 @@ import CheckOut from "./(section)/Checkout";
 import Dealer from "./(section)/Dealer";
 import Customer from "./(section)/Customer";
 import Visit from "./(section)/Visit";
+import Famous from "./(section)/Famous";
 
 export default function HomePage() {
   return (
@@ -20,6 +21,7 @@ export default function HomePage() {
         <Kunefe />
         <Classic />
         <Reserve />
+        <Famous />
         <Dealer />
         <Customer />
         <Visit />
