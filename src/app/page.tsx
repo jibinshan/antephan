@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import HeroSection from "./(section)/Hero";
 import Taste from "./(section)/Taste";
 import Kunefe from "./(section)/Kunefe";
+import Classic from "./(section)/Classic";
 
 export default function HomePage() {
   return (
@@ -11,6 +12,7 @@ export default function HomePage() {
         <HeroSection />
         <Taste />
         <Kunefe />
+        <Classic />
       </div>
       {/* <div className="fixed bottom-2 right-2 z-50 hidden md:flex">
         <ViewMenu />
