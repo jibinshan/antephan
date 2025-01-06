@@ -1,22 +1,90 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
 
 const Kunefe: React.FC = () => {
   return (
-    <section className="h-[100vh] w-full bg-white">
-      <div>
-        <h3>Antephan Kunefe</h3>
-        <ul>
-          <li>
+    <section className="flex h-full w-full items-center justify-center bg-white px-4 py-12 md:h-[100vh] md:py-24">
+      <div className="flex w-full max-w-[1300px] flex-col items-center justify-center gap-6">
+        <h3 className="font-montserrat text-[22px] font-semibold uppercase tracking-[3.2px]">
+          Antephan Kunefe
+        </h3>
+        <div>
+          <Image
+            src="/images/home/kunefe/kunefe-underline.svg"
+            width={100}
+            height={100}
+            alt="kunefe-underline"
+            className="h-[12px] w-[540px]"
+          />
+        </div>
+        <ul className="flex flex-col gap-8 md:flex-row">
+          <li className="flex flex-col items-center">
             <Image
               src="/images/home/kunefe/wicker.png"
               width={322}
               height={323}
               alt="wicker"
-              className=""
+              className="h-[280px] w-[280px]"
             />
+            <h6 className="mt-6 font-montserrat text-[14px] font-semibold uppercase leading-[23px] tracking-[1.08px] text-black">
+              Wicker
+            </h6>
+            <span className="font-montserrat text-[12px] text-black opacity-80">
+              kunefe
+            </span>
+          </li>
+          <li className="flex flex-col items-center">
+            <Image
+              src="/images/home/kunefe/kayamkli.png"
+              width={322}
+              height={323}
+              alt="Kaymakli"
+              className="h-[280px] w-[280px]"
+            />
+            <h6 className="mt-6 font-montserrat text-[14px] font-semibold uppercase leading-[23px] tracking-[1.08px] text-black">
+              Kaymakli
+            </h6>
+            <span className="font-montserrat text-[12px] text-black opacity-80">
+              kunefe
+            </span>
+          </li>
+          <li className="flex flex-col items-center">
+            <Image
+              src="/images/home/kunefe/pisthachio.png"
+              width={322}
+              height={323}
+              alt="Pisthachio"
+              className="h-[280px] w-[280px]"
+            />
+            <h6 className="mt-6 font-montserrat text-[14px] font-semibold uppercase leading-[23px] tracking-[1.08px] text-black">
+              Pisthachio
+            </h6>
+            <span className="font-montserrat text-[12px] text-black opacity-80">
+              kunefe
+            </span>
+          </li>
+          <li className="flex flex-col items-center">
+            <Image
+              src="/images/home/kunefe/green.png"
+              width={322}
+              height={323}
+              alt="Green-Sulthan"
+              className="h-[280px] w-[280px]"
+            />
+            <h6 className="mt-6 font-montserrat text-[14px] font-semibold uppercase leading-[23px] tracking-[1.08px] text-black">
+              Green Sulthan
+            </h6>
+            <span className="font-montserrat text-[12px] text-black opacity-80">
+              kunefe
+            </span>
           </li>
         </ul>
+        <div className="mt-4">
+          <Button className="mt-3 rounded-none px-6 py-2 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-white hover:text-black">
+            VIEW MENU
+          </Button>
+        </div>
       </div>
     </section>
   );
