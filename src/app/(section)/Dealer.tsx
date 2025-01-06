@@ -5,6 +5,15 @@ import React from "react";
 const Dealer: React.FC = () => {
   return (
     <section className="relative z-0 h-full w-full py-24">
+      <div className="absolute bottom-10 hidden md:block">
+        <Image
+          src="/images/home/dealer/d-bottom.png"
+          width={1920}
+          height={120}
+          alt="logo"
+          className="h-full w-full"
+        />
+      </div>
       <div className="absolute inset-0">
         <Image
           src="/images/home/dealer/dealer-bg.png"

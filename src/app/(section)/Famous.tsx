@@ -10,7 +10,7 @@ const Famous: React.FC = () => {
           width={100}
           height={100}
           alt="right"
-          className="mb-8 h-[100px] w-[140px]"
+          className="mb-8 hidden h-[100px] w-[140px] md:block"
         />{" "}
       </div>
       <div className="absolute bottom-1/2 right-5">
@@ -19,7 +19,7 @@ const Famous: React.FC = () => {
           width={100}
           height={100}
           alt="right"
-          className="mb-8 h-[60px] w-[100px]"
+          className="mb-8 hidden h-[60px] w-[100px] md:block"
         />{" "}
       </div>
       <div className="flex h-full w-full max-w-[1300px] flex-col items-center gap-4">

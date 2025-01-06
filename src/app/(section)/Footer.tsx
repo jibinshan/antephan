@@ -5,8 +5,17 @@ import Link from "next/link";
 
 const Footer: React.FC = () => {
   return (
-    <section className="bg-footer flex h-full w-full flex-col items-center justify-center">
-      <div className="bg-footer flex h-full w-full max-w-[1300px] flex-col items-center justify-between gap-14 px-4 py-12 md:flex-row md:gap-0 md:py-24">
+    <section className="bg-footer relative flex h-full w-full flex-col items-center justify-center">
+      <div className="absolute top-0 hidden md:block">
+        <Image
+          src="/images/home/footer/footer-top.png"
+          width={1920}
+          height={120}
+          alt="logo"
+          className="h-full w-full"
+        />
+      </div>
+      <div className="bg-footer flex h-full w-full max-w-[1300px] flex-col items-center justify-between gap-14 px-4 py-12 md:mt-24 md:flex-row md:gap-0">
         <div className="flex flex-col gap-4">
           <h3 className="tex-[13px] font-montserrat font-semibold tracking-[1.08px] text-white">
             Contact

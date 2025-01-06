@@ -14,7 +14,7 @@ const Visit: React.FC = () => {
         />
       </div>
       <div className="relative z-10 flex w-full max-w-[1300px] flex-col items-center justify-center gap-8 md:flex-row md:gap-28">
-        <div className="relative">
+        <div className="relative hidden md:block">
           <div className="absolute bottom-2 left-2.5 right-2 top-4">
             <div className="relative">
               <div className="absolute left-3 top-20">
