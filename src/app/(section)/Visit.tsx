@@ -3,7 +3,7 @@ import React from "react";
 
 const Visit: React.FC = () => {
   return (
-    <section className="relative z-0 h-full w-full py-12">
+    <section className="relative z-0 flex h-full w-full items-center justify-center py-12">
       <div className="absolute inset-0">
         <Image
           src="/images/home/visit/visit.png"
@@ -13,15 +13,15 @@ const Visit: React.FC = () => {
           className="h-full w-full"
         />
       </div>
-      <div className="relative z-10 flex w-full max-w-[1300px] flex-col items-center justify-center gap-8 md:flex-row md:gap-28">
-        <div className="relative hidden md:block">
-          <div className="absolute bottom-2 left-2.5 right-2 top-4">
+      <div className="relative z-10 flex w-full max-w-[1300px] flex-col-reverse items-center justify-center gap-8 md:flex-row md:gap-28">
+        <div className="relative">
+          <div className="absolute left-3 top-3">
             <div className="relative">
-              <div className="absolute left-3 top-20">
+              <div className="absolute left-7 top-24">
                 <ul className="flex flex-col gap-2">
                   <li>
                     <div className="flex flex-row items-center justify-center gap-1">
-                      <p className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                      <p className="text-center font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
                         Monday
                       </p>
                       <Image
@@ -29,16 +29,16 @@ const Visit: React.FC = () => {
                         width={100}
                         height={100}
                         alt="underline"
-                        className="mt-1 hidden h-[2px] w-[70px] items-end md:block"
+                        className="mt-1 h-[4px] w-[70px] items-end"
                       />{" "}
-                      <span className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                      <span className="font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
                         09:00 - 21:00h
                       </span>
                     </div>
                   </li>
                   <li>
                     <div className="flex flex-row items-center justify-center gap-1">
-                      <p className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                      <p className="text-center font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
                         Tuesday
                       </p>
                       <Image
@@ -46,16 +46,16 @@ const Visit: React.FC = () => {
                         width={100}
                         height={100}
                         alt="underline"
-                        className="mt-1 hidden h-[2px] w-[70px] items-end md:block"
+                        className="mt-1 h-[4px] w-[70px] items-end"
                       />{" "}
-                      <span className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                      <span className="font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
                         09:00 - 21:00h
                       </span>
                     </div>
                   </li>
                   <li>
                     <div className="flex flex-row items-center justify-center gap-1">
-                      <p className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                      <p className="text-center font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
                         Wednesday
                       </p>
                       <Image
@@ -63,33 +63,33 @@ const Visit: React.FC = () => {
                         width={100}
                         height={100}
                         alt="underline"
-                        className="mt-1 hidden h-[2px] w-[60px] items-end md:block"
+                        className="mt-1 h-[4px] w-[70px] items-end"
                       />{" "}
-                      <span className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                      <span className="font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
                         09:00 - 21:00h
                       </span>
                     </div>
                   </li>
                   <li>
                     <div className="flex flex-row items-center justify-center gap-1">
-                      <p className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
-                        Thursday{" "}
+                      <p className="text-center font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
+                        Thursday
                       </p>
                       <Image
                         src="/images/home/visit/line-black.svg"
                         width={100}
                         height={100}
                         alt="underline"
-                        className="mt-1 hidden h-[2px] w-[70px] items-end md:block"
+                        className="mt-1 h-[4px] w-[70px] items-end"
                       />{" "}
-                      <span className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                      <span className="font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
                         09:00 - 21:00h
                       </span>
                     </div>
                   </li>
                   <li>
                     <div className="flex flex-row items-center justify-center gap-1">
-                      <p className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                      <p className="text-center font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
                         Friday
                       </p>
                       <Image
@@ -97,16 +97,16 @@ const Visit: React.FC = () => {
                         width={100}
                         height={100}
                         alt="underline"
-                        className="mt-1 hidden h-[2px] w-[75px] items-end md:block"
+                        className="mt-1 h-[4px] w-[70px] items-end"
                       />{" "}
-                      <span className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                      <span className="font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
                         09:00 - 21:00h
                       </span>
                     </div>
                   </li>
                   <li>
                     <div className="flex flex-row items-center justify-center gap-1">
-                      <p className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                      <p className="text-center font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
                         Saturday
                       </p>
                       <Image
@@ -114,16 +114,16 @@ const Visit: React.FC = () => {
                         width={100}
                         height={100}
                         alt="underline"
-                        className="mt-1 hidden h-[2px] w-[70px] items-end md:block"
+                        className="mt-1 h-[4px] w-[70px] items-end"
                       />{" "}
-                      <span className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                      <span className="font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
                         10:00 - 21:00h
                       </span>
                     </div>
                   </li>
                   <li>
                     <div className="flex flex-row items-center justify-center gap-1">
-                      <p className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                      <p className="text-center font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
                         Sunday
                       </p>
                       <Image
@@ -131,9 +131,9 @@ const Visit: React.FC = () => {
                         width={100}
                         height={100}
                         alt="underline"
-                        className="mt-1 hidden h-[2px] w-[70px] items-end md:block"
+                        className="mt-1 h-[4px] w-[70px] items-end"
                       />{" "}
-                      <span className="font-cormorant text-[8px] font-normal italic text-white opacity-70">
+                      <span className="font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
                         12:00 - 19:00h{" "}
                       </span>
                     </div>
@@ -145,7 +145,7 @@ const Visit: React.FC = () => {
                 width={100}
                 height={100}
                 alt="frame"
-                className="h-[311px] w-[180px]"
+                className="h-[380px] w-[260px]"
               />
             </div>
           </div>
@@ -154,7 +154,7 @@ const Visit: React.FC = () => {
             width={100}
             height={100}
             alt="frame"
-            className="h-[341px] w-[200px]"
+            className="h-[405px] w-[285px]"
           />
         </div>
         <div className="mx-4 flex flex-col items-center gap-6 md:items-start">

@@ -6,7 +6,7 @@ const Kunefe: React.FC = () => {
   return (
     <section className="flex h-full w-full items-center justify-center bg-white px-4 py-12 md:h-[100vh] md:py-24">
       <div className="flex w-full max-w-[1300px] flex-col items-center justify-center gap-6">
-        <h3 className="font-montserrat text-[22px] font-semibold uppercase tracking-[3.2px]">
+        <h3 className="font-montserrat text-[22px] font-semibold uppercase tracking-[3.2px] md:text-3xl">
           Antephan Kunefe
         </h3>
         <div>

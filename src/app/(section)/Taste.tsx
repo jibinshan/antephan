@@ -5,7 +5,7 @@ import React from "react";
 const Taste: React.FC = () => {
   return (
     <section className="relative flex h-full w-full flex-col md:h-[90vh] md:flex-row">
-      <div className="absolute left-1/4 top-[615px] hidden h-[84px] w-[94px] md:block">
+      <div className="absolute -bottom-11 left-1/4 hidden h-[84px] w-[94px] md:block">
         <Image
           src="/images/home/taste/cardamom.png"
           width={156}
@@ -24,7 +24,7 @@ const Taste: React.FC = () => {
         />
       </div>
       <div className="relative flex w-full flex-col justify-center gap-4 bg-bgBlue px-4 py-8 md:w-1/2 md:px-24">
-        <div className="absolute -left-8 top-0 hidden h-full w-full md:flex justify-start items-start">
+        <div className="absolute -left-8 top-0 hidden h-full w-full items-start justify-start md:flex">
           <Image
             src="/images/home/taste/Asset.png"
             width={82}

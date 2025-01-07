@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
           Special Taste from Gaziantep
         </p>
 
-        <Button className="mt-3 rounded-none px-5 py-2 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-black">
+        <Button className="mt-3 rounded-none px-5 py-5 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-black">
           VIEW MENU
         </Button>
       </div>

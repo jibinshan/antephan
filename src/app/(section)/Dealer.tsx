@@ -5,15 +5,16 @@ import React from "react";
 const Dealer: React.FC = () => {
   return (
     <section className="relative z-0 h-full w-full py-24">
-      <div className="absolute bottom-10 hidden md:block">
+      <div className="absolute top-0 z-10 h-full w-full">
         <Image
-          src="/images/home/dealer/d-bottom.png"
+          src="/images/home/dealer/d-top.png"
           width={1920}
           height={120}
           alt="logo"
-          className="h-full w-full"
+          className="h-[50px] w-full"
         />
       </div>
+
       <div className="absolute inset-0">
         <Image
           src="/images/home/dealer/dealer-bg.png"
@@ -24,7 +25,7 @@ const Dealer: React.FC = () => {
         />
       </div>
       <div className="relative z-10 flex flex-col items-center justify-center gap-6">
-        <h2 className="text-center font-montserrat text-[20px] font-semibold uppercase leading-[24px] tracking-[3px] text-white">
+        <h2 className="text-center font-montserrat text-2xl font-semibold uppercase leading-[24px] tracking-[3px] text-[#FFF]">
           WOULD YOU LIKE <br />
           TO BE OUR DEALER?
         </h2>
@@ -35,7 +36,7 @@ const Dealer: React.FC = () => {
           alt="underline"
           className="h-[12px] w-[140px]"
         />
-        <p className="text-center font-cormorant text-[12px] font-normal italic leading-[24px] text-white">
+        <p className="text-center font-cormorant text-sm font-normal italic leading-[24px] text-white opacity-80 md:text-xl">
           Join Our Dealer Network! Become a valued part <br />
           of our growing family and unlock exclusive opportunities to elevate
           your <br />

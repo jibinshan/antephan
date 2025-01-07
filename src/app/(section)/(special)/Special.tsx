@@ -10,50 +10,51 @@ const slideData: {
   price: string;
   name: string;
 }[] = [
-    {
-      name: "Chicken Shish",
-      price: "40",
-      modelUrl: "/models/chicken-shish.glb",
-    },
-    {
-      name: "Grilled Sea Bass",
-      price: "50",
-      modelUrl: "/models/grilled-sea-bass-(levrek).glb",
-    },
-    {
-      name: "Lamb Doner",
-      price: "60",
-      modelUrl: "/models/lamb-doner.glb",
-    },
-    {
-      name: "Lamb Kofte Beyti",
-      price: "80",
-      modelUrl: "/models/lamb-kofte-beyti.glb",
-    },
-    {
-      name: "Lamb Shank",
-      price: "100",
-      modelUrl: "/models/lamb-shank.glb",
-    },
-    {
-      name: "Mix Kebab",
-      price: "100",
-      modelUrl: "/models/mix-kebab-for-one.glb",
-    },
-    {
-      name: "Mix Platter",
-      price: "100",
-      modelUrl: "/models/mix-platter-for-2.glb",
-    },
-  ];
-const Special = ({ }) => {
+  {
+    name: "Chicken Shish",
+    price: "40",
+    modelUrl: "/models/chicken-shish.glb",
+  },
+  {
+    name: "Grilled Sea Bass",
+    price: "50",
+    modelUrl: "/models/grilled-sea-bass-(levrek).glb",
+  },
+  {
+    name: "Lamb Doner",
+    price: "60",
+    modelUrl: "/models/lamb-doner.glb",
+  },
+  {
+    name: "Lamb Kofte Beyti",
+    price: "80",
+    modelUrl: "/models/lamb-kofte-beyti.glb",
+  },
+  {
+    name: "Lamb Shank",
+    price: "100",
+    modelUrl: "/models/lamb-shank.glb",
+  },
+  {
+    name: "Mix Kebab",
+    price: "100",
+    modelUrl: "/models/mix-kebab-for-one.glb",
+  },
+  {
+    name: "Mix Platter",
+    price: "100",
+    modelUrl: "/models/mix-platter-for-2.glb",
+  },
+];
+const Special = ({}) => {
   return (
-    <section className="relative flex h-full w-full justify-center"
+    <section
+      className="relative flex h-full w-full justify-center"
       style={{
         backgroundImage: "url('/images/home/classic/antephan-bgimage.png')",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        backgroundPosition: "center"
+        backgroundPosition: "center",
       }}
     >
       {/* <div className="absolute left-0 top-0 h-full w-full">
@@ -66,14 +67,14 @@ const Special = ({ }) => {
         />
       </div> */}
       <div className="relative flex h-full w-full max-w-[1300px] flex-col items-center justify-center gap-4 py-12 md:py-20">
-        <div className="absolute w-full h-full left-0 top-0 py-10 z-10">
+        <div className="absolute left-0 top-0 z-10 h-full w-full py-10">
           <div
-            className="w-full h-full"
+            className="h-full w-full"
             style={{
               backgroundImage: "url('/images/home/classic/leaf.png')",
               backgroundSize: "5%",
               backgroundRepeat: "no-repeat",
-              backgroundPosition: "top right"
+              backgroundPosition: "top right",
             }}
           />
           {/* <Image
@@ -85,7 +86,7 @@ const Special = ({ }) => {
           /> */}
         </div>
         <div className="flex flex-col items-center justify-center gap-3">
-          <h4 className="font-montserrat text-[20px] font-semibold uppercase tracking-[3px] text-black">
+          <h4 className="mt-5 font-montserrat text-2xl font-semibold uppercase tracking-[3px] text-black md:mt-0 md:text-3xl">
             Antephan Specials
           </h4>
           <Image

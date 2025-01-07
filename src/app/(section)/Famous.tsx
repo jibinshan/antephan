@@ -4,6 +4,17 @@ import React from "react";
 const Famous: React.FC = () => {
   return (
     <section className="relative flex h-full w-full items-center justify-center py-12">
+      <div className="absolute left-0 top-0 z-10 h-full w-full py-10">
+        <div
+          className="h-full w-full"
+          style={{
+            backgroundImage: "url('/images/home/famous/left.png')",
+            backgroundSize: "7%",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "top left",
+          }}
+        />
+      </div>
       <div className="absolute bottom-5 right-0">
         <Image
           src="/images/home/famous/right-fa.svg"
@@ -23,7 +34,7 @@ const Famous: React.FC = () => {
         />{" "}
       </div>
       <div className="flex h-full w-full max-w-[1300px] flex-col items-center gap-4">
-        <h4 className="text-center font-montserrat text-[18px] font-semibold uppercase leading-[44px] tracking-[3.2px] text-black">
+        <h4 className="text-center font-montserrat text-2xl font-semibold uppercase leading-[44px] tracking-[3.2px] text-black md:text-3xl">
           Our Famous Kunefe Flavors
         </h4>
         <Image
@@ -42,14 +53,14 @@ const Famous: React.FC = () => {
                   width={100}
                   height={100}
                   alt="underline"
-                  className="h-[67px] w-[67px]"
+                  className="h-[77px] w-[77px]"
                 />{" "}
                 <div className="flex flex-col">
-                  <span className="font-montserrat text-[12px] font-semibold uppercase tracking-[1.08px] text-black">
+                  <span className="font-montserrat text-sm font-semibold uppercase tracking-[1.08px] text-black">
                     Pumpkin tart
                   </span>
                   <div className="flex flex-row items-center gap-3">
-                    <p className="font-cormorant text-[11px] font-normal italic leading-[31px] text-black opacity-70">
+                    <p className="font-cormorant text-xs font-normal italic leading-[31px] text-black opacity-70">
                       Pumpkin, ginger, cinnamon, almond{" "}
                     </p>
                     <Image
@@ -71,14 +82,14 @@ const Famous: React.FC = () => {
                   width={100}
                   height={100}
                   alt="underline"
-                  className="h-[67px] w-[67px]"
+                  className="h-[77px] w-[77px]"
                 />{" "}
                 <div className="flex flex-col">
-                  <span className="font-montserrat text-[12px] font-semibold uppercase tracking-[1.08px] text-black">
+                  <span className="font-montserrat text-sm font-semibold uppercase tracking-[1.08px] text-black">
                     Pumpkin tart
                   </span>
                   <div className="flex flex-row items-center gap-3">
-                    <p className="font-cormorant text-[11px] font-normal italic leading-[31px] text-black opacity-70">
+                    <p className="font-cormorant text-xs font-normal italic leading-[31px] text-black opacity-70">
                       Pumpkin, ginger, cinnamon, almond{" "}
                     </p>
                     <Image
@@ -100,14 +111,14 @@ const Famous: React.FC = () => {
                   width={100}
                   height={100}
                   alt="underline"
-                  className="h-[67px] w-[67px]"
+                  className="h-[77px] w-[77px]"
                 />{" "}
                 <div className="flex flex-col">
-                  <span className="font-montserrat text-[12px] font-semibold uppercase tracking-[1.08px] text-black">
+                  <span className="font-montserrat text-sm font-semibold uppercase tracking-[1.08px] text-black">
                     Pumpkin tart
                   </span>
                   <div className="flex flex-row items-center gap-3">
-                    <p className="font-cormorant text-[11px] font-normal italic leading-[31px] text-black opacity-70">
+                    <p className="font-cormorant text-xs font-normal italic leading-[31px] text-black opacity-70">
                       Pumpkin, ginger, cinnamon, almond{" "}
                     </p>
                     <Image
@@ -129,14 +140,14 @@ const Famous: React.FC = () => {
                   width={100}
                   height={100}
                   alt="underline"
-                  className="h-[67px] w-[67px]"
+                  className="h-[77px] w-[77px]"
                 />{" "}
                 <div className="flex flex-col">
-                  <span className="font-montserrat text-[12px] font-semibold uppercase tracking-[1.08px] text-black">
+                  <span className="font-montserrat text-sm font-semibold uppercase tracking-[1.08px] text-black">
                     Pumpkin tart
                   </span>
                   <div className="flex flex-row items-center gap-3">
-                    <p className="font-cormorant text-[11px] font-normal italic leading-[31px] text-black opacity-70">
+                    <p className="font-cormorant text-xs font-normal italic leading-[31px] text-black opacity-70">
                       Pumpkin, ginger, cinnamon, almond{" "}
                     </p>
                     <Image
@@ -162,14 +173,14 @@ const Famous: React.FC = () => {
                   width={100}
                   height={100}
                   alt="underline"
-                  className="h-[67px] w-[67px]"
+                  className="h-[77px] w-[77px]"
                 />{" "}
                 <div className="flex flex-col">
-                  <span className="font-montserrat text-[12px] font-semibold uppercase tracking-[1.08px] text-black">
+                  <span className="font-montserrat text-sm font-semibold uppercase tracking-[1.08px] text-black">
                     Pumpkin tart
                   </span>
                   <div className="flex flex-row items-center gap-3">
-                    <p className="font-cormorant text-[11px] font-normal italic leading-[31px] text-black opacity-70">
+                    <p className="font-cormorant text-xs font-normal italic leading-[31px] text-black opacity-70">
                       Pumpkin, ginger, cinnamon, almond{" "}
                     </p>
                     <Image
@@ -191,14 +202,14 @@ const Famous: React.FC = () => {
                   width={100}
                   height={100}
                   alt="underline"
-                  className="h-[67px] w-[67px]"
+                  className="h-[77px] w-[77px]"
                 />{" "}
                 <div className="flex flex-col">
-                  <span className="font-montserrat text-[12px] font-semibold uppercase tracking-[1.08px] text-black">
+                  <span className="font-montserrat text-sm font-semibold uppercase tracking-[1.08px] text-black">
                     Pumpkin tart
                   </span>
                   <div className="flex flex-row items-center gap-3">
-                    <p className="font-cormorant text-[11px] font-normal italic leading-[31px] text-black opacity-70">
+                    <p className="font-cormorant text-xs font-normal italic leading-[31px] text-black opacity-70">
                       Pumpkin, ginger, cinnamon, almond{" "}
                     </p>
                     <Image
@@ -220,14 +231,14 @@ const Famous: React.FC = () => {
                   width={100}
                   height={100}
                   alt="underline"
-                  className="h-[67px] w-[67px]"
+                  className="h-[77px] w-[77px]"
                 />{" "}
                 <div className="flex flex-col">
-                  <span className="font-montserrat text-[12px] font-semibold uppercase tracking-[1.08px] text-black">
+                  <span className="font-montserrat text-sm font-semibold uppercase tracking-[1.08px] text-black">
                     Pumpkin tart
                   </span>
                   <div className="flex flex-row items-center gap-3">
-                    <p className="font-cormorant text-[11px] font-normal italic leading-[31px] text-black opacity-70">
+                    <p className="font-cormorant text-xs font-normal italic leading-[31px] text-black opacity-70">
                       Pumpkin, ginger, cinnamon, almond{" "}
                     </p>
                     <Image
@@ -249,14 +260,14 @@ const Famous: React.FC = () => {
                   width={100}
                   height={100}
                   alt="underline"
-                  className="h-[67px] w-[67px]"
+                  className="h-[77px] w-[77px]"
                 />{" "}
                 <div className="flex flex-col">
-                  <span className="font-montserrat text-[12px] font-semibold uppercase tracking-[1.08px] text-black">
+                  <span className="font-montserrat text-sm font-semibold uppercase tracking-[1.08px] text-black">
                     Pumpkin tart
                   </span>
                   <div className="flex flex-row items-center gap-3">
-                    <p className="font-cormorant text-[11px] font-normal italic leading-[31px] text-black opacity-70">
+                    <p className="font-cormorant text-xs font-normal italic leading-[31px] text-black opacity-70">
                       Pumpkin, ginger, cinnamon, almond{" "}
                     </p>
                     <Image

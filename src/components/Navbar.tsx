@@ -41,7 +41,7 @@ const Navbar = ({
             width={140}
             height={120}
             alt="logo"
-            className="h-[50px] w-[50px]"
+            className="h-[60px] w-[60px]"
           />
         </Link>
         {!isScrolled && (
@@ -81,7 +81,7 @@ const Navbar = ({
             >
               <Link href="/table-booking">BOOKING</Link>
             </Button>
-            <Button className="mt-3 rounded-none px-3 py-2 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-black">
+            <Button className="mt-3 rounded-none px-5 py-5 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-black">
               BOOK TABLE
             </Button>
           </div>

@@ -5,8 +5,8 @@ import Link from "next/link";
 
 const Footer: React.FC = () => {
   return (
-    <section className="bg-footer relative flex h-full w-full flex-col items-center justify-center">
-      <div className="absolute top-0 hidden md:block">
+    <section className="relative flex h-full w-full flex-col items-center justify-center bg-footer">
+      <div className="absolute left-0 right-0 top-0 hidden md:block">
         <Image
           src="/images/home/footer/footer-top.png"
           width={1920}
@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
           className="h-full w-full"
         />
       </div>
-      <div className="bg-footer flex h-full w-full max-w-[1300px] flex-col items-center justify-between gap-14 px-4 py-12 md:mt-24 md:flex-row md:gap-0">
+      <div className="flex h-full w-full max-w-[1300px] flex-col items-center justify-between gap-14 bg-footer px-4 py-12 md:mt-24 md:flex-row md:gap-0">
         <div className="flex flex-col gap-4">
           <h3 className="tex-[13px] font-montserrat font-semibold tracking-[1.08px] text-white">
             Contact
@@ -185,7 +185,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="bg-copyRight flex h-[50px] w-full items-center justify-center text-center font-cormorant text-[10px] italic text-gray-500">
+      <div className="flex h-[50px] w-full items-center justify-center bg-copyRight text-center font-cormorant text-[10px] italic text-gray-500">
         <span className="text-center font-cormorant text-[13px] italic text-gray-500">
           © 2025 Antephankunefe,All Rights Reserved
         </span>
