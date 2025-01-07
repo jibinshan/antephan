@@ -14,15 +14,6 @@ const Taste: React.FC = () => {
           className="h-full w-full"
         />
       </div>
-      <div className="absolute left-[695px] top-0 hidden h-full w-[100px] md:block">
-        <Image
-          src="/images/home/taste/Asset.png"
-          width={82}
-          height={910}
-          alt="asset"
-          className="h-full w-full"
-        />
-      </div>
       <div className="h-full w-full md:w-1/2">
         <Image
           src="/images/home/taste/candy.png"
@@ -33,7 +24,15 @@ const Taste: React.FC = () => {
         />
       </div>
       <div className="relative flex w-full flex-col justify-center gap-4 bg-bgBlue px-4 py-8 md:w-1/2 md:px-24">
-        <div></div>
+        <div className="absolute -left-8 top-0 hidden h-full w-full md:flex justify-start items-start">
+          <Image
+            src="/images/home/taste/Asset.png"
+            width={82}
+            height={910}
+            alt="asset"
+            className="h-full"
+          />
+        </div>
         <div>
           <Image
             src="/images/home/taste/badam.png"

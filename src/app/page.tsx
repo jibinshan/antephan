@@ -10,6 +10,8 @@ import Dealer from "./(section)/Dealer";
 import Customer from "./(section)/Customer";
 import Visit from "./(section)/Visit";
 import Famous from "./(section)/Famous";
+import Special from "./(section)/(special)/Special";
+import Reviews from "./(section)/Review";
 
 export default function HomePage() {
   return (
@@ -19,11 +21,13 @@ export default function HomePage() {
         <HeroSection />
         <Taste />
         <Kunefe />
-        <Classic />
+        {/* <Classic /> */}
+        <Special />
         <Reserve />
         <Famous />
         <Dealer />
-        <Customer />
+        {/* <Customer /> */}
+        <Reviews />
         <Visit />
         <CheckOut />
         <Footer />
