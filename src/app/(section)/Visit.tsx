@@ -3,7 +3,7 @@ import React from "react";
 
 const Visit: React.FC = () => {
   return (
-    <section className="relative z-0 flex h-full w-full items-center justify-center py-12">
+    <section className="relative z-0 flex h-full w-full items-center justify-center px-4 py-12">
       <div className="absolute inset-0">
         <Image
           src="/images/home/visit/visit.png"
@@ -163,11 +163,10 @@ const Visit: React.FC = () => {
           </h3>
           <hr className="w-[140px] text-primary" />
 
-          <p className="font-cormorant text-[12px] font-normal italic leading-[26px] text-white opacity-70">
+          <p className="w-full max-w-[500px] font-cormorant text-[12px] font-normal italic leading-[26px] text-white opacity-70">
             Lorem ipsum dolor sit amet, ne nulla quidam causae qui, dicam
-            mandamus est ad. Qui officiis <br />
-            gloriatur id. Vivendo verterem definitionem id nam, altera nostrud
-            quaestio has ut, ea facilis <br />
+            mandamus est ad. Qui officiis gloriatur id. Vivendo verterem
+            definitionem id nam, altera nostrud quaestio has ut, ea facilis
             ocurreret per. Euripidis pertinacia ullamcorper ne ius, has tale.
           </p>
           <div className="flex flex-row gap-6">

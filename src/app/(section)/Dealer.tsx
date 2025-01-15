@@ -14,6 +14,15 @@ const Dealer: React.FC = () => {
           className="h-[50px] w-full"
         />
       </div>
+      <div className="absolute bottom-0 z-10 w-full">
+        <Image
+          src="/images/home/dealer/d-bottom.png"
+          width={1920}
+          height={120}
+          alt="logo"
+          className="h-[50px] w-full"
+        />
+      </div>
 
       <div className="absolute inset-0">
         <Image
@@ -36,15 +45,13 @@ const Dealer: React.FC = () => {
           alt="underline"
           className="h-[12px] w-[140px]"
         />
-        <p className="text-center font-cormorant text-sm font-normal italic leading-[24px] text-white opacity-80 md:text-xl">
-          Join Our Dealer Network! Become a valued part <br />
-          of our growing family and unlock exclusive opportunities to elevate
-          your <br />
-          business. As a dealer, you`ll gain access to premium products,
-          competitive <br />
-          pricing, and unmatched support. Let`s grow together!
+        <p className="w-full max-w-[650px] text-center font-cormorant text-sm font-normal italic leading-[24px] text-white opacity-80 md:text-xl">
+          Join Our Dealer Network! Become a valued part of our growing family
+          and unlock exclusive opportunities to elevate your business. As a
+          dealer, you`ll gain access to premium products, competitive pricing,
+          and unmatched support. Let`s grow together!
         </p>
-        <Button className="mt-3 rounded-none px-5 py-2 font-montserrat text-[11px] font-normal uppercase leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-black">
+        <Button className="mt-3 rounded-none px-6 py-5 font-montserrat text-[11px] font-normal uppercase leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-black">
           Apply Now
         </Button>
       </div>

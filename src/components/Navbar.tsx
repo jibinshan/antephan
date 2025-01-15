@@ -32,7 +32,7 @@ const Navbar = ({
 
   return (
     <nav
-      className={`${position} top-5 z-50 flex h-[10vh] w-full max-w-[1300px] items-center bg-transparent p-4 transition-all duration-300 ease-in-out`}
+      className={`${position} top-5 z-50 flex h-[10vh] w-full items-center bg-transparent p-4 px-4 transition-all duration-300 ease-in-out md:px-[40px] lg:px-[120px]`}
     >
       <div className="flex h-full w-full items-center justify-between">
         <Link href="/">

@@ -20,7 +20,7 @@ const Taste: React.FC = () => {
           width={970}
           height={910}
           alt="candy"
-          className="h-full w-full"
+          className="h-full w-full object-fill"
         />
       </div>
       <div className="relative flex w-full flex-col justify-center gap-4 bg-bgBlue px-4 py-8 md:w-1/2 md:px-24">
@@ -71,7 +71,7 @@ const Taste: React.FC = () => {
         </div>
 
         <div>
-          <Button className="mt-3 rounded-none bg-black px-5 py-2 font-montserrat text-[11px] font-extralight leading-[1px] tracking-[2.40px] ring-1 ring-black ring-offset-1 ring-offset-bgBlue">
+          <Button className="mt-3 rounded-none bg-black px-6 py-5 font-montserrat text-[11px] font-extralight leading-[1px] tracking-[2.40px] ring-1 ring-black ring-offset-1 ring-offset-bgBlue">
             OUR STORY
           </Button>
         </div>

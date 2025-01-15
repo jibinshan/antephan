@@ -25,7 +25,7 @@ const Kunefe: React.FC = () => {
               width={322}
               height={323}
               alt="wicker"
-              className="h-[280px] w-[280px]"
+              className="h-[200px] w-[200px] md:h-[280px] md:w-[280px]"
             />
             <h6 className="mt-6 font-montserrat text-[14px] font-semibold uppercase leading-[23px] tracking-[1.08px] text-black">
               Wicker
@@ -40,7 +40,7 @@ const Kunefe: React.FC = () => {
               width={322}
               height={323}
               alt="Kaymakli"
-              className="h-[280px] w-[280px]"
+              className="h-[200px] w-[200px] md:h-[280px] md:w-[280px]"
             />
             <h6 className="mt-6 font-montserrat text-[14px] font-semibold uppercase leading-[23px] tracking-[1.08px] text-black">
               Kaymakli
@@ -55,7 +55,7 @@ const Kunefe: React.FC = () => {
               width={322}
               height={323}
               alt="Pisthachio"
-              className="h-[280px] w-[280px]"
+              className="h-[200px] w-[200px] md:h-[280px] md:w-[280px]"
             />
             <h6 className="mt-6 font-montserrat text-[14px] font-semibold uppercase leading-[23px] tracking-[1.08px] text-black">
               Pisthachio
@@ -70,7 +70,7 @@ const Kunefe: React.FC = () => {
               width={322}
               height={323}
               alt="Green-Sulthan"
-              className="h-[280px] w-[280px]"
+              className="h-[200px] w-[200px] md:h-[280px] md:w-[280px]"
             />
             <h6 className="mt-6 font-montserrat text-[14px] font-semibold uppercase leading-[23px] tracking-[1.08px] text-black">
               Green Sulthan
@@ -81,7 +81,7 @@ const Kunefe: React.FC = () => {
           </li>
         </ul>
         <div className="mt-4">
-          <Button className="mt-3 rounded-none px-6 py-2 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-white hover:text-black">
+          <Button className="mt-3 rounded-none px-6 py-5 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-white hover:text-black">
             VIEW MENU
           </Button>
         </div>

@@ -17,10 +17,10 @@ const Footer: React.FC = () => {
       </div>
       <div className="flex h-full w-full max-w-[1300px] flex-col items-center justify-between gap-14 bg-footer px-4 py-12 md:mt-24 md:flex-row md:gap-0">
         <div className="flex flex-col gap-4">
-          <h3 className="tex-[13px] font-montserrat font-semibold tracking-[1.08px] text-white">
+          <h3 className="tex-[13px] text-center font-montserrat font-semibold tracking-[1.08px] text-white md:text-start">
             Contact
           </h3>
-          <p className="font-cormorant text-[12px] font-normal italic leading-[20px] text-white opacity-60">
+          <p className="text-center font-cormorant text-[12px] font-normal italic leading-[20px] text-white opacity-60 md:text-start">
             Heinrichstrasse 267c / 3. Stock 8005 Zürich <br />{" "}
             E-mail:dolcino@qodeinteractive.com <br /> Phone:+88(0) 101 0000 000
           </p>
@@ -135,8 +135,8 @@ const Footer: React.FC = () => {
         <div className="flex flex-col gap-14">
           <div>
             <div className="relative">
-              <div className="absolute left-4 top-3.5">
-                <div className="flex flex-row gap-1">
+              <div className="absolute left-6 top-3.5">
+                <div className="flex flex-row items-center justify-center gap-1">
                   <Image
                     src="/images/home/footer/location.svg"
                     width={100}
@@ -160,8 +160,8 @@ const Footer: React.FC = () => {
           </div>
           <div>
             <div className="relative">
-              <div className="absolute left-4 top-3.5">
-                <div className="flex flex-row gap-3">
+              <div className="absolute left-6 top-3.5">
+                <div className="flex flex-row items-center justify-center gap-3">
                   <Image
                     src="/images/home/footer/menue.svg"
                     width={100}

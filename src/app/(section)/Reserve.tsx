@@ -4,13 +4,31 @@ import React from "react";
 
 const Reserve: React.FC = () => {
   return (
-    <section className="relative flex h-auto w-full flex-col justify-center px-4 py-10 md:h-[100vh] md:py-28">
+    <section className="relative flex h-auto w-full flex-col justify-center py-32 md:h-[100vh] md:py-96">
       <div className="absolute inset-0 h-full w-full">
         <Image
           src="/images/home/reserve/reserve-bg.png"
           layout="fill"
           objectFit="cover"
           alt="reserve"
+        />
+      </div>
+      <div className="absolute -top-32 left-0 w-full">
+        <Image
+          src="/images/home/reserve/top.png"
+          width={1920}
+          height={165}
+          alt="logo"
+          className="h-[250px] w-full object-cover"
+        />
+      </div>
+      <div className="absolute -bottom-16 left-0 w-full">
+        <Image
+          src="/images/home/reserve/bottom.png"
+          width={1705}
+          height={128}
+          alt="logo"
+          className="h-[115px] w-full object-cover"
         />
       </div>
 
@@ -81,7 +99,7 @@ const Reserve: React.FC = () => {
             Gaziantep in 1984 under different brands, continues its claim in the
             kunefe and katmer sector with the Antebim kunefe brand
           </p>
-          <Button className="rounded-none bg-primary px-5 py-2 font-montserrat text-xs font-extralight uppercase tracking-[2.4px] ring-1 ring-primary ring-offset-1 ring-offset-black">
+          <Button className="rounded-none bg-primary px-6 py-5 font-montserrat text-xs font-extralight uppercase tracking-[2.4px] ring-1 ring-primary ring-offset-1 ring-offset-black">
             Book Table
           </Button>
         </div>
