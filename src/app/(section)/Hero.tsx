@@ -14,11 +14,11 @@ const HeroSection: React.FC = () => {
           className="h-full w-full object-cover"
         />
       </div>
-      <div className="z-10 flex w-full flex-col items-center justify-center gap-4 px-4 md:items-start md:px-[120px] lg:px-[180px] 2xl:px-[250px]">
-        <p className="text-center font-mrs_saint text-7xl font-normal text-white md:text-start md:text-9xl">
+      <div className="z-10 flex w-full flex-col items-center justify-center gap-6 px-4 md:items-start md:px-[120px] lg:px-[180px]">
+        <p className="text-center font-mrs_saint text-7xl font-normal text-white md:text-start md:text-[142.395px]">
           <span className="text-primary">Antepehan</span> <br /> Kunefev
         </p>
-        <p className="font-mrs_saint text-[11px] font-semibold capitalize leading-[21.6px] tracking-[1.08px] text-white">
+        <p className="font-montserrat text-sm font-semibold capitalize leading-[21.6px] tracking-[1.08px] text-white">
           Special Taste from Gaziantep
         </p>
 

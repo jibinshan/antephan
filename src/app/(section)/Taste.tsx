@@ -62,7 +62,7 @@ const Taste: React.FC = () => {
           className="h-[11px] w-[141px]"
         />
         <div>
-          <p className="text-1xl md:text-1.5xl w-3/4 font-cormorant font-normal italic leading-[20px] text-white text-opacity-70">
+          <p className="text-xl md:text-xl w-3/4 font-cormorant font-[400] italic leading-[20px] text-white text-opacity-70">
             The sector`s deep-rooted brand Cobanoglu flavor group, which
             continues its dessert and baklava adventure that started in
             Gaziantep in 1984 under different brands, continues its claim in the

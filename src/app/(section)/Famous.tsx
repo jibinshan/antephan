@@ -33,7 +33,7 @@ const Famous: React.FC = () => {
           className="mb-8 hidden h-[60px] w-[100px] md:block"
         />{" "}
       </div>
-      <div className="flex h-full w-full max-w-[1300px] flex-col items-center gap-4">
+      <div className="flex h-full w-full px-[130px] flex-col items-center gap-4">
         <h4 className="text-center font-montserrat text-2xl font-semibold uppercase leading-[44px] tracking-[3.2px] text-black md:text-3xl">
           Our Famous Kunefe Flavors
         </h4>
@@ -44,10 +44,10 @@ const Famous: React.FC = () => {
           alt="underline"
           className="mb-8 h-[12px] w-[140px]"
         />{" "}
-        <div className="flex flex-col gap-8 md:flex-row">
-          <div>
-            <ul className="flex flex-col gap-5">
-              <li className="flex flex-row items-center justify-center gap-3">
+        <div className="w-full flex flex-col gap-8 md:flex-row">
+          <div className="w-full md:w-1/2 flex justify-center items-center">
+            <ul className="w-full flex flex-col gap-5">
+              <li className="w-full flex flex-row items-center justify-center gap-3">
                 <Image
                   src="/images/home/famous/Ellipse.svg"
                   width={100}

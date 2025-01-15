@@ -43,7 +43,7 @@ const cormorant = Cormorant({
 
 const poppins = Poppins({
   subsets: ["latin"],
-  variable: "--font-cormorant",
+  variable: "--font-poppins",
   weight: ["400"],
 });
 
