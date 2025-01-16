@@ -4,8 +4,8 @@ import React from "react";
 
 const Taste: React.FC = () => {
   return (
-    <section className="relative flex h-full w-full flex-col md:h-[90vh] md:flex-row">
-      <div className="absolute -bottom-11 left-1/4 hidden h-[84px] w-[94px] md:block">
+    <section className="relative flex h-full w-full flex-col md:flex-row">
+      <div className="absolute -bottom-11 left-1/4 hidden h-[84px] w-[94px] lg:block">
         <Image
           src="/images/home/taste/cardamom.png"
           width={156}
@@ -62,7 +62,7 @@ const Taste: React.FC = () => {
           className="h-[11px] w-[141px]"
         />
         <div>
-          <p className="text-xl md:text-xl w-3/4 font-cormorant font-[400] italic leading-[20px] text-white text-opacity-70">
+          <p className="w-3/4 font-cormorant text-xl font-[400] italic leading-[20px] text-white text-opacity-70 md:text-xl">
             The sector`s deep-rooted brand Cobanoglu flavor group, which
             continues its dessert and baklava adventure that started in
             Gaziantep in 1984 under different brands, continues its claim in the

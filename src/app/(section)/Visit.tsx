@@ -3,7 +3,7 @@ import React from "react";
 
 const Visit: React.FC = () => {
   return (
-    <section className="relative z-0 flex h-full w-full items-center justify-center px-4 py-12">
+    <section className="relative z-0 flex h-full w-full items-center justify-center px-4 py-12 md:px-24">
       <div className="absolute inset-0">
         <Image
           src="/images/home/visit/visit.png"
@@ -13,7 +13,7 @@ const Visit: React.FC = () => {
           className="h-full w-full"
         />
       </div>
-      <div className="relative z-10 flex w-full max-w-[1300px] flex-col-reverse items-center justify-center gap-8 md:flex-row md:gap-28">
+      <div className="relative z-10 flex w-full flex-col-reverse items-center justify-center gap-8 md:flex-row md:gap-28">
         <div className="relative">
           <div className="absolute left-3 top-3">
             <div className="relative">
@@ -21,7 +21,7 @@ const Visit: React.FC = () => {
                 <ul className="flex flex-col gap-2">
                   <li>
                     <div className="flex flex-row items-center justify-center gap-1">
-                      <p className="text-center font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
+                      <p className="text-center font-cormorant text-sm font-[200] italic leading-[21px] text-white opacity-80">
                         Monday
                       </p>
                       <Image
@@ -31,14 +31,14 @@ const Visit: React.FC = () => {
                         alt="underline"
                         className="mt-1 h-[4px] w-[70px] items-end"
                       />{" "}
-                      <span className="font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
+                      <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
                         09:00 - 21:00h
                       </span>
                     </div>
                   </li>
                   <li>
                     <div className="flex flex-row items-center justify-center gap-1">
-                      <p className="text-center font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
+                      <p className="text-center font-cormorant text-sm font-[200] italic leading-[21px] text-white opacity-80">
                         Tuesday
                       </p>
                       <Image
@@ -46,16 +46,16 @@ const Visit: React.FC = () => {
                         width={100}
                         height={100}
                         alt="underline"
-                        className="mt-1 h-[4px] w-[70px] items-end"
+                        className="mt-1 h-[4px] w-[74px] items-end"
                       />{" "}
-                      <span className="font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
+                      <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
                         09:00 - 21:00h
                       </span>
                     </div>
                   </li>
                   <li>
                     <div className="flex flex-row items-center justify-center gap-1">
-                      <p className="text-center font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
+                      <p className="text-center font-cormorant text-sm font-[200] italic leading-[21px] text-white opacity-80">
                         Wednesday
                       </p>
                       <Image
@@ -63,16 +63,16 @@ const Visit: React.FC = () => {
                         width={100}
                         height={100}
                         alt="underline"
-                        className="mt-1 h-[4px] w-[70px] items-end"
+                        className="mt-1 h-[4px] w-[52px] items-end"
                       />{" "}
-                      <span className="font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
+                      <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
                         09:00 - 21:00h
                       </span>
                     </div>
                   </li>
                   <li>
                     <div className="flex flex-row items-center justify-center gap-1">
-                      <p className="text-center font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
+                      <p className="text-center font-cormorant text-sm font-[200] italic leading-[21px] text-white opacity-80">
                         Thursday
                       </p>
                       <Image
@@ -82,14 +82,14 @@ const Visit: React.FC = () => {
                         alt="underline"
                         className="mt-1 h-[4px] w-[70px] items-end"
                       />{" "}
-                      <span className="font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
+                      <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
                         09:00 - 21:00h
                       </span>
                     </div>
                   </li>
                   <li>
                     <div className="flex flex-row items-center justify-center gap-1">
-                      <p className="text-center font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
+                      <p className="text-center font-cormorant text-sm font-[200] italic leading-[21px] text-white opacity-80">
                         Friday
                       </p>
                       <Image
@@ -97,16 +97,16 @@ const Visit: React.FC = () => {
                         width={100}
                         height={100}
                         alt="underline"
-                        className="mt-1 h-[4px] w-[70px] items-end"
+                        className="mt-1 h-[4px] w-[85px] items-end"
                       />{" "}
-                      <span className="font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
+                      <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
                         09:00 - 21:00h
                       </span>
                     </div>
                   </li>
                   <li>
                     <div className="flex flex-row items-center justify-center gap-1">
-                      <p className="text-center font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
+                      <p className="text-center font-cormorant text-sm font-[200] italic leading-[21px] text-white opacity-80">
                         Saturday
                       </p>
                       <Image
@@ -116,14 +116,14 @@ const Visit: React.FC = () => {
                         alt="underline"
                         className="mt-1 h-[4px] w-[70px] items-end"
                       />{" "}
-                      <span className="font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
+                      <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
                         10:00 - 21:00h
                       </span>
                     </div>
                   </li>
                   <li>
                     <div className="flex flex-row items-center justify-center gap-1">
-                      <p className="text-center font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
+                      <p className="text-center font-cormorant text-sm font-[200] italic leading-[21px] text-white opacity-80">
                         Sunday
                       </p>
                       <Image
@@ -131,10 +131,10 @@ const Visit: React.FC = () => {
                         width={100}
                         height={100}
                         alt="underline"
-                        className="mt-1 h-[4px] w-[70px] items-end"
+                        className="mt-1 h-[4px] w-[80px] items-end"
                       />{" "}
-                      <span className="font-cormorant text-xs font-[400] italic leading-[21px] text-white opacity-70">
-                        12:00 - 19:00h{" "}
+                      <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
+                        12:00 - 19:00h
                       </span>
                     </div>
                   </li>
@@ -157,19 +157,19 @@ const Visit: React.FC = () => {
             className="h-[405px] w-[285px]"
           />
         </div>
-        <div className="mx-4 flex flex-col items-center gap-6 md:items-start">
-          <h3 className="font-montserrat text-[24px] font-semibold uppercase leading-[35px] tracking-[3px] text-white">
+        <div className="mx-4 flex flex-col items-center gap-4 md:items-start">
+          <h3 className="font-montserrat text-[24px] font-[500] uppercase leading-[35px] tracking-[3px] text-[#FFF] md:text-[27px]">
             Visit our place
           </h3>
-          <hr className="w-[140px] text-primary" />
+          <hr className="w-[90px] border-[1px] border-[#c19d56]" />
 
-          <p className="w-full max-w-[500px] font-cormorant text-[12px] font-normal italic leading-[26px] text-white opacity-70">
+          <p className="w-full max-w-[630px] font-cormorant text-sm font-[200] italic leading-[20px] tracking-[0.80px] text-[#FFF] opacity-85">
             Lorem ipsum dolor sit amet, ne nulla quidam causae qui, dicam
             mandamus est ad. Qui officiis gloriatur id. Vivendo verterem
             definitionem id nam, altera nostrud quaestio has ut, ea facilis
             ocurreret per. Euripidis pertinacia ullamcorper ne ius, has tale.
           </p>
-          <div className="flex flex-row gap-6">
+          <div className="mt-4 flex flex-col gap-6 md:flex-row md:gap-28">
             <div>
               <ul className="flex flex-col gap-4">
                 <li className="flex flex-row items-center gap-2">
@@ -178,9 +178,9 @@ const Visit: React.FC = () => {
                     width={100}
                     height={100}
                     alt="underline"
-                    className="h-[26px] w-[26px]"
+                    className="h-[22px] w-[22px]"
                   />
-                  <span className="font-cormorant text-[12px] font-normal italic leading-[20px] text-white opacity-70">
+                  <span className="font-cormorant text-[13px] font-[200] italic leading-[20px] text-white opacity-85">
                     Friedrichstrase 123, 10117 Berlin
                   </span>
                 </li>
@@ -190,10 +190,10 @@ const Visit: React.FC = () => {
                     width={100}
                     height={100}
                     alt="underline"
-                    className="h-[26px] w-[26px]"
+                    className="h-[22px] w-[22px]"
                   />
-                  <span className="font-cormorant text-[12px] font-normal italic leading-[20px] text-white opacity-70">
-                    Friedrichstrase 123, 10117 Berlin
+                  <span className="font-cormorant text-[13px] font-[200] italic leading-[20px] text-white opacity-85">
+                    99411 - 7253931
                   </span>
                 </li>
               </ul>
@@ -206,10 +206,10 @@ const Visit: React.FC = () => {
                     width={100}
                     height={100}
                     alt="underline"
-                    className="h-[26px] w-[26px]"
+                    className="h-[22px] w-[22px]"
                   />
-                  <span className="font-cormorant text-[12px] font-normal italic leading-[20px] text-white opacity-70">
-                    Friedrichstrase 123, 10117 Berlin
+                  <span className="font-cormorant text-[13px] font-[200] italic leading-[20px] text-white opacity-85">
+                    dolcino@qodeinteractive.com
                   </span>
                 </li>
                 <li className="flex flex-row items-center gap-2">
@@ -218,10 +218,10 @@ const Visit: React.FC = () => {
                     width={100}
                     height={100}
                     alt="underline"
-                    className="h-[26px] w-[26px]"
+                    className="h-[22px] w-[22px]"
                   />
-                  <span className="font-cormorant text-[12px] font-normal italic leading-[20px] text-white opacity-70">
-                    Friedrichstrase 123, 10117 Berlin
+                  <span className="font-cormorant text-[13px] font-[200] italic leading-[20px] text-white opacity-85">
+                    dolcino@qodeinteractive.com
                   </span>
                 </li>
               </ul>

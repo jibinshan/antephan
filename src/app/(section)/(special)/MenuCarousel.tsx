@@ -114,7 +114,19 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
   return (
     <>
       <div className="z-50 flex w-full flex-col items-center gap-4">
-        <div className="embla-menu">
+        <div className="embla-menu relative">
+          <div className="absolute left-4 top-1/2 z-10 flex -translate-x-1/2 transform items-center gap-6 md:left-0">
+            <PrevButton
+              onClick={onPrevButtonClick}
+              disabled={prevBtnDisabled}
+            />
+          </div>
+          <div className="absolute -right-4 top-1/2 z-10 flex -translate-x-1/2 transform items-center gap-6">
+            <NextButton
+              onClick={onNextButtonClick}
+              disabled={nextBtnDisabled}
+            />
+          </div>
           <div className="embla-menu__viewport" ref={emblaRef}>
             <div className="embla-menu__container">
               {slides.map((item, index) => (
@@ -133,45 +145,13 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
               ))}
             </div>
             <div className="flex w-full items-center justify-center pb-6">
-              <p className="min-h-[50px] max-w-[300px] text-center font-montserrat text-[#545454] font-[500] text-3xl">
+              <p className="min-h-[50px] max-w-[300px] text-center font-montserrat text-3xl font-[500] text-[#545454]">
                 {slides[selectedIndex]?.name}
               </p>
             </div>
           </div>
         </div>
-        <div className="relative flex h-auto w-full items-center justify-end gap-2 px-10 md:px-64">
-          <div className="absolute left-1/2 flex -translate-x-1/2 transform items-center gap-6">
-            <PrevButton
-              onClick={onPrevButtonClick}
-              disabled={prevBtnDisabled}
-            />
-            <NextButton
-              onClick={onNextButtonClick}
-              disabled={nextBtnDisabled}
-            />
-          </div>
-        </div>
       </div>
-      {/* <div className="absolute left-0 top-0 z-10 flex h-full w-full justify-center">
-        <div
-          className="h-full w-[90%] sm:w-[70%] lg:w-[50%] xl:w-[30%]"
-          style={{
-            borderRadius: "187.5rem 187.5rem 0rem 0rem",
-            background: "linear-gradient(180deg, #161616 0%, #070707 100%)",
-          }}
-        />
-        <div className="absolute left-1/2 top-0 translate-x-16 transform sm:translate-x-24 md:translate-x-28">
-          <div className="relative flex size-24 items-center justify-center">
-            <Icons.badge className="absolute z-10 h-full w-full text-primary" />
-            <p className="relative z-20 flex items-center gap-2 font-playfair text-3xl text-[#282828]">
-              $
-              <span className="flex h-fit w-fit items-center">
-                {slides[selectedIndex]?.price}
-              </span>
-            </p>
-          </div>
-        </div>
-      </div> */}
     </>
   );
 };

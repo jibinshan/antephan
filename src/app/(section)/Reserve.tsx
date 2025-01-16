@@ -4,7 +4,7 @@ import React from "react";
 
 const Reserve: React.FC = () => {
   return (
-    <section className="relative flex h-auto w-full flex-col justify-center py-32 md:h-[100vh] md:py-96">
+    <section className="relative flex h-auto w-full flex-col justify-center py-32">
       <div className="absolute inset-0 h-full w-full">
         <Image
           src="/images/home/reserve/reserve-bg.png"

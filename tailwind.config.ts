@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        montserrat: ["var(--font- montserrat)", ...fontFamily.sans],
+        montserrat: ["var(--font-montserrat)", ...fontFamily.sans],
         poppins: ["var(--font-poppins)", ...fontFamily.sans],
         mrs_saint: ["var(--font-mrs_saint)", ...fontFamily.sans],
         cormorant: ["var(--font-cormorant)", ...fontFamily.sans],
@@ -21,7 +21,7 @@ export default {
       colors: {
         bgBlue: "#079EBC",
         footer: "#002A32",
-        copyRight:"#003641",
+        copyRight: "#003641",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {

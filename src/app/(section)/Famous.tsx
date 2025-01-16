@@ -3,7 +3,7 @@ import React from "react";
 
 const Famous: React.FC = () => {
   return (
-    <section className="relative flex h-full w-full items-center justify-center py-12">
+    <section className="relative flex h-full w-full items-center justify-center py-12 md:py-28">
       <div className="absolute left-0 top-0 z-10 h-full w-full py-10">
         <div
           className="h-full w-full"
@@ -33,7 +33,7 @@ const Famous: React.FC = () => {
           className="mb-8 hidden h-[60px] w-[100px] md:block"
         />{" "}
       </div>
-      <div className="flex h-full w-full px-[130px] flex-col items-center gap-4">
+      <div className="flex h-full w-full flex-col items-center gap-4 px-2 md:px-[80px]">
         <h4 className="text-center font-montserrat text-2xl font-semibold uppercase leading-[44px] tracking-[3.2px] text-black md:text-3xl">
           Our Famous Kunefe Flavors
         </h4>
@@ -44,10 +44,10 @@ const Famous: React.FC = () => {
           alt="underline"
           className="mb-8 h-[12px] w-[140px]"
         />{" "}
-        <div className="w-full flex flex-col gap-8 md:flex-row">
-          <div className="w-full md:w-1/2 flex justify-center items-center">
-            <ul className="w-full flex flex-col gap-5">
-              <li className="w-full flex flex-row items-center justify-center gap-3">
+        <div className="flex w-full flex-col gap-8 md:flex-row md:gap-0">
+          <div className="flex w-full items-center justify-center md:w-1/2">
+            <ul className="flex w-full flex-col gap-5">
+              <li className="flex w-full flex-row items-center justify-center gap-3">
                 <Image
                   src="/images/home/famous/Ellipse.svg"
                   width={100}
@@ -60,7 +60,7 @@ const Famous: React.FC = () => {
                     Pumpkin tart
                   </span>
                   <div className="flex flex-row items-center gap-3">
-                    <p className="font-cormorant text-xs font-normal italic leading-[31px] text-black opacity-70">
+                    <p className="font-cormorant text-sm font-normal italic leading-[31px] text-black opacity-70 lg:tracking-[0.80px]">
                       Pumpkin, ginger, cinnamon, almond{" "}
                     </p>
                     <Image
@@ -68,15 +68,15 @@ const Famous: React.FC = () => {
                       width={100}
                       height={100}
                       alt="underline"
-                      className="hidden h-[2px] w-[140px] md:block"
+                      className="hidden h-[2px] w-[170px] lg:block"
                     />{" "}
-                    <span className="font-cormorant text-[12px] font-normal italic leading-[24px] text-black">
+                    <span className="font-cormorant text-lg font-normal italic leading-[24px] text-black lg:text-2xl">
                       $10
                     </span>
                   </div>
                 </div>
               </li>
-              <li className="flex flex-row items-center justify-center gap-3">
+              <li className="flex w-full flex-row items-center justify-center gap-3">
                 <Image
                   src="/images/home/famous/Ellipse.svg"
                   width={100}
@@ -89,7 +89,7 @@ const Famous: React.FC = () => {
                     Pumpkin tart
                   </span>
                   <div className="flex flex-row items-center gap-3">
-                    <p className="font-cormorant text-xs font-normal italic leading-[31px] text-black opacity-70">
+                    <p className="font-cormorant text-sm font-normal italic leading-[31px] text-black opacity-70 lg:tracking-[0.80px]">
                       Pumpkin, ginger, cinnamon, almond{" "}
                     </p>
                     <Image
@@ -97,15 +97,15 @@ const Famous: React.FC = () => {
                       width={100}
                       height={100}
                       alt="underline"
-                      className="hidden h-[2px] w-[140px] md:block"
+                      className="hidden h-[2px] w-[170px] lg:block"
                     />{" "}
-                    <span className="font-cormorant text-[12px] font-normal italic leading-[24px] text-black">
+                    <span className="font-cormorant text-lg font-normal italic leading-[24px] text-black lg:text-2xl">
                       $10
                     </span>
                   </div>
                 </div>
               </li>
-              <li className="flex flex-row items-center justify-center gap-3">
+              <li className="flex w-full flex-row items-center justify-center gap-3">
                 <Image
                   src="/images/home/famous/Ellipse.svg"
                   width={100}
@@ -118,7 +118,7 @@ const Famous: React.FC = () => {
                     Pumpkin tart
                   </span>
                   <div className="flex flex-row items-center gap-3">
-                    <p className="font-cormorant text-xs font-normal italic leading-[31px] text-black opacity-70">
+                    <p className="font-cormorant text-sm font-normal italic leading-[31px] text-black opacity-70 lg:tracking-[0.80px]">
                       Pumpkin, ginger, cinnamon, almond{" "}
                     </p>
                     <Image
@@ -126,15 +126,15 @@ const Famous: React.FC = () => {
                       width={100}
                       height={100}
                       alt="underline"
-                      className="hidden h-[2px] w-[140px] md:block"
+                      className="hidden h-[2px] w-[170px] lg:block"
                     />{" "}
-                    <span className="font-cormorant text-[12px] font-normal italic leading-[24px] text-black">
+                    <span className="font-cormorant text-lg font-normal italic leading-[24px] text-black lg:text-2xl">
                       $10
                     </span>
                   </div>
                 </div>
               </li>
-              <li className="flex flex-row items-center justify-center gap-3">
+              <li className="flex w-full flex-row items-center justify-center gap-3">
                 <Image
                   src="/images/home/famous/Ellipse.svg"
                   width={100}
@@ -147,7 +147,7 @@ const Famous: React.FC = () => {
                     Pumpkin tart
                   </span>
                   <div className="flex flex-row items-center gap-3">
-                    <p className="font-cormorant text-xs font-normal italic leading-[31px] text-black opacity-70">
+                    <p className="font-cormorant text-sm font-normal italic leading-[31px] text-black opacity-70 lg:tracking-[0.80px]">
                       Pumpkin, ginger, cinnamon, almond{" "}
                     </p>
                     <Image
@@ -155,9 +155,9 @@ const Famous: React.FC = () => {
                       width={100}
                       height={100}
                       alt="underline"
-                      className="hidden h-[2px] w-[140px] md:block"
+                      className="hidden h-[2px] w-[170px] lg:block"
                     />{" "}
-                    <span className="font-cormorant text-[12px] font-normal italic leading-[24px] text-black">
+                    <span className="font-cormorant text-lg font-normal italic leading-[24px] text-black lg:text-2xl">
                       $10
                     </span>
                   </div>
@@ -165,9 +165,9 @@ const Famous: React.FC = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="flex w-full items-center justify-center md:w-1/2">
             <ul className="flex flex-col gap-5">
-              <li className="flex flex-row items-center justify-center gap-3">
+              <li className="flex w-full flex-row items-center justify-center gap-3">
                 <Image
                   src="/images/home/famous/Ellipse.svg"
                   width={100}
@@ -180,7 +180,7 @@ const Famous: React.FC = () => {
                     Pumpkin tart
                   </span>
                   <div className="flex flex-row items-center gap-3">
-                    <p className="font-cormorant text-xs font-normal italic leading-[31px] text-black opacity-70">
+                    <p className="font-cormorant text-sm font-normal italic leading-[31px] text-black opacity-70 lg:tracking-[0.80px]">
                       Pumpkin, ginger, cinnamon, almond{" "}
                     </p>
                     <Image
@@ -188,15 +188,15 @@ const Famous: React.FC = () => {
                       width={100}
                       height={100}
                       alt="underline"
-                      className="hidden h-[2px] w-[140px] md:block"
+                      className="hidden h-[2px] w-[170px] lg:block"
                     />{" "}
-                    <span className="font-cormorant text-[12px] font-normal italic leading-[24px] text-black">
+                    <span className="font-cormorant text-lg font-normal italic leading-[24px] text-black lg:text-2xl">
                       $10
                     </span>
                   </div>
                 </div>
               </li>
-              <li className="flex flex-row items-center justify-center gap-3">
+              <li className="flex w-full flex-row items-center justify-center gap-3">
                 <Image
                   src="/images/home/famous/Ellipse.svg"
                   width={100}
@@ -209,7 +209,7 @@ const Famous: React.FC = () => {
                     Pumpkin tart
                   </span>
                   <div className="flex flex-row items-center gap-3">
-                    <p className="font-cormorant text-xs font-normal italic leading-[31px] text-black opacity-70">
+                    <p className="font-cormorant text-sm font-normal italic leading-[31px] text-black opacity-70 lg:tracking-[0.80px]">
                       Pumpkin, ginger, cinnamon, almond{" "}
                     </p>
                     <Image
@@ -217,15 +217,15 @@ const Famous: React.FC = () => {
                       width={100}
                       height={100}
                       alt="underline"
-                      className="hidden h-[2px] w-[140px] md:block"
+                      className="hidden h-[2px] w-[170px] lg:block"
                     />{" "}
-                    <span className="font-cormorant text-[12px] font-normal italic leading-[24px] text-black">
+                    <span className="font-cormorant text-lg font-normal italic leading-[24px] text-black lg:text-2xl">
                       $10
                     </span>
                   </div>
                 </div>
               </li>
-              <li className="flex flex-row items-center justify-center gap-3">
+              <li className="flex w-full flex-row items-center justify-center gap-3">
                 <Image
                   src="/images/home/famous/Ellipse.svg"
                   width={100}
@@ -238,7 +238,7 @@ const Famous: React.FC = () => {
                     Pumpkin tart
                   </span>
                   <div className="flex flex-row items-center gap-3">
-                    <p className="font-cormorant text-xs font-normal italic leading-[31px] text-black opacity-70">
+                    <p className="font-cormorant text-sm font-normal italic leading-[31px] text-black opacity-70 lg:tracking-[0.80px]">
                       Pumpkin, ginger, cinnamon, almond{" "}
                     </p>
                     <Image
@@ -246,15 +246,15 @@ const Famous: React.FC = () => {
                       width={100}
                       height={100}
                       alt="underline"
-                      className="hidden h-[2px] w-[140px] md:block"
+                      className="hidden h-[2px] w-[170px] lg:block"
                     />{" "}
-                    <span className="font-cormorant text-[12px] font-normal italic leading-[24px] text-black">
+                    <span className="font-cormorant text-lg font-normal italic leading-[24px] text-black lg:text-2xl">
                       $10
                     </span>
                   </div>
                 </div>
               </li>
-              <li className="flex flex-row items-center justify-center gap-3">
+              <li className="flex w-full flex-row items-center justify-center gap-3">
                 <Image
                   src="/images/home/famous/Ellipse.svg"
                   width={100}
@@ -267,7 +267,7 @@ const Famous: React.FC = () => {
                     Pumpkin tart
                   </span>
                   <div className="flex flex-row items-center gap-3">
-                    <p className="font-cormorant text-xs font-normal italic leading-[31px] text-black opacity-70">
+                    <p className="font-cormorant text-sm font-normal italic leading-[31px] text-black opacity-70 lg:tracking-[0.80px]">
                       Pumpkin, ginger, cinnamon, almond{" "}
                     </p>
                     <Image
@@ -275,9 +275,9 @@ const Famous: React.FC = () => {
                       width={100}
                       height={100}
                       alt="underline"
-                      className="hidden h-[2px] w-[140px] md:block"
+                      className="hidden h-[2px] w-[170px] lg:block"
                     />{" "}
-                    <span className="font-cormorant text-[12px] font-normal italic leading-[24px] text-black">
+                    <span className="font-cormorant text-lg font-normal italic leading-[24px] text-black lg:text-2xl">
                       $10
                     </span>
                   </div>

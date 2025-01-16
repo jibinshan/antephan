@@ -4,8 +4,8 @@ import React from "react";
 
 const Kunefe: React.FC = () => {
   return (
-    <section className="flex h-full w-full items-center justify-center bg-white px-4 py-12 md:h-[100vh] md:py-24">
-      <div className="flex w-full max-w-[1300px] flex-col items-center justify-center gap-6">
+    <section className="flex h-full w-full items-center justify-center bg-white px-4 py-12 md:py-24">
+      <div className="flex w-full flex-col items-center justify-center gap-6">
         <h3 className="font-montserrat text-[22px] font-semibold uppercase tracking-[3.2px] md:text-3xl">
           Antephan Kunefe
         </h3>
@@ -19,7 +19,7 @@ const Kunefe: React.FC = () => {
           />
         </div>
         <ul className="flex flex-col gap-8 md:flex-row">
-          <li className="flex flex-col items-center">
+          <li className="flex w-full flex-col items-center md:w-1/4">
             <Image
               src="/images/home/kunefe/wicker.png"
               width={322}
@@ -34,7 +34,7 @@ const Kunefe: React.FC = () => {
               kunefe
             </span>
           </li>
-          <li className="flex flex-col items-center">
+          <li className="flex w-full flex-col items-center md:w-1/4">
             <Image
               src="/images/home/kunefe/kayamkli.png"
               width={322}
@@ -49,7 +49,7 @@ const Kunefe: React.FC = () => {
               kunefe
             </span>
           </li>
-          <li className="flex flex-col items-center">
+          <li className="flex w-full flex-col items-center md:w-1/4">
             <Image
               src="/images/home/kunefe/pisthachio.png"
               width={322}
@@ -64,7 +64,7 @@ const Kunefe: React.FC = () => {
               kunefe
             </span>
           </li>
-          <li className="flex flex-col items-center">
+          <li className="flex w-full flex-col items-center md:w-1/4">
             <Image
               src="/images/home/kunefe/green.png"
               width={322}
