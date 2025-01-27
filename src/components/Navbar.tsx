@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Sidebar from "./SideBar";
-import CartSheet from "./cart/CartSheet";
 import { BetaMenuActive } from "@/lib/constants";
 import { usePathname } from "next/navigation";
 
