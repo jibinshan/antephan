@@ -49,40 +49,56 @@ const Navbar = ({
             <Button
               asChild
               variant="link"
-              className="px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] text-accent hover:text-primary"
+              className={`px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] ${
+                pathname === "/"
+                  ? "text-accent hover:text-primary"
+                  : "text-[#000] hover:text-primary"
+              }`}
             >
               <Link href="/">Home</Link>
             </Button>
             <Button
               asChild
               variant="link"
-              className="px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] text-accent hover:text-primary"
+              className={`px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] ${
+                pathname === "/"
+                  ? "text-accent hover:text-primary"
+                  : "text-[#000] hover:text-primary"
+              }`}
             >
               <Link href="/menu">Menu</Link>
             </Button>
             <Button
               asChild
               variant="link"
-              className="px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] text-accent hover:text-primary"
+              className={`px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] ${
+                pathname === "/"
+                  ? "text-accent hover:text-primary"
+                  : "text-[#000] hover:text-primary"
+              }`}
             >
-              <Link href="/contact">ABOUT US</Link>
+              <Link href="/about-us">ABOUT US</Link>
             </Button>
-            <Button
+            {/* <Button
               asChild
               variant="link"
               className="px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] text-accent hover:text-primary"
             >
               <Link href="/table-booking">BRANCH</Link>
-            </Button>
+            </Button> */}
             <Button
               asChild
               variant="link"
-              className="px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] text-accent hover:text-primary"
+              className={`px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] ${
+                pathname === "/"
+                  ? "text-accent hover:text-primary"
+                  : "text-[#000] hover:text-primary"
+              }`}
             >
-              <Link href="/table-booking">BOOKING</Link>
+              <Link href="/contact">Contact</Link>
             </Button>
-            <Button className="mt-3 rounded-none px-5 py-5 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-black">
-              BOOK TABLE
+            <Button className="mt-3 rounded-none px-5 py-5 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-black hover:text-[#000]">
+              <Link href="/table-booking">Book Table</Link>
             </Button>
           </div>
         )}

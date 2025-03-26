@@ -18,8 +18,8 @@ import {
 import Providers from "@/app/Providers";
 
 export const metadata: Metadata = {
-  title: "Antepehan",
-  description: "Welcome to Antepehan, Where Every Moment Sparkles",
+  title: "Antephan",
+  description: "Welcome to Antephan, Where Every Moment Sparkles",
   icons: [{ rel: "icon", url: "/images/home/hero/logo.png" }],
 };
 

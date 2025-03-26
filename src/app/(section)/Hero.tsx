@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const HeroSection: React.FC = () => {
@@ -23,7 +24,7 @@ const HeroSection: React.FC = () => {
         </p>
 
         <Button className="mt-3 rounded-none px-6 py-6 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-black">
-          VIEW MENU
+          <Link href="/menu">VIEW MENU</Link>
         </Button>
       </div>
     </section>

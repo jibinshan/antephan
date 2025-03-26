@@ -33,7 +33,7 @@ const FormValidation = z.object({
 
 type FormData = z.infer<typeof FormValidation>;
 
-const Contact = ({ }) => {
+const Contact = ({}) => {
   const form = useForm<FormData>({
     resolver: zodResolver(FormValidation),
     defaultValues: {
@@ -67,31 +67,35 @@ const Contact = ({ }) => {
   });
 
   return (
-    <section className="flex flex-col h-full w-full items-center justify-center bg-[#fff5e5] " id="contact">
-      <div className="flex h-full w-full max-w-[1300px] flex-col gap-[2.5rem] px-0 pl-0 md:px-2 py-12 md:py-24">
+    <section
+      className="flex h-full w-full flex-col items-center justify-center bg-[#fff]"
+      id="contact"
+    >
+      <div className="flex h-full w-full max-w-[1300px] flex-col gap-[2.5rem] px-0 py-12 pl-0 md:px-2 md:py-24">
         <div className="flex w-full flex-col lg:flex-row">
-          <div className="flex w-full flex-col bg-[#fff5e5] lg:w-1/2 px-6 lg:px-28 gap-8">
+          <div className="flex w-full flex-col gap-8 bg-[#fff] px-6 lg:w-1/2 lg:px-28">
             <div className="flex flex-col gap-8">
-              <p className="font-bai leading-[4px] text-lg">Contact Us</p>
-              <h1
-                className="text-4xl lg:text-5xl font-medium uppercase leading-[50px] tracking-[5px] font-forum">
-                Get in<br /> Touch</h1>
+              <p className="font-bai text-lg leading-[4px]">Contact Us</p>
+              <h1 className="font-forum text-4xl font-medium uppercase leading-[50px] tracking-[5px] lg:text-5xl">
+                Get in
+                <br /> Touch
+              </h1>
             </div>
             <div className="flex flex-col gap-8">
               <div className="flex gap-6">
                 <div>
-                  <div className="h-fit w-fit rounded-full  p-2">
+                  <div className="h-fit w-fit rounded-full p-2">
                     <MapPin />
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href="https://www.google.com/maps/place/Istanbul+Bar+%26+Grill+-+Woolton/@53.3744361,-2.86825,198m/data=!3m2!1e3!4b1!4m6!3m5!1s0x487b1feb87f19015:0xd0e5ee710b67c07f!8m2!3d53.3744361!4d-2.86825!16s%2Fg%2F1vc81bs5?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D">
+                  <Link href="https://g.co/kgs/GcVBgQe">
                     <p className="">
-                      37-39 Allerton Road, L25 7RE
+                      240 Hertford Rd, London EN3 5BL, United Kingdom
                     </p>
                   </Link>
-                  <Link href="https://www.google.com/maps/place/Istanbul+Bar+%26+Grill+-+Woolton/@53.3744361,-2.86825,198m/data=!3m2!1e3!4b1!4m6!3m5!1s0x487b1feb87f19015:0xd0e5ee710b67c07f!8m2!3d53.3744361!4d-2.86825!16s%2Fg%2F1vc81bs5?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D">
-                    <p className="flex gap-2 text-sm items-center">
+                  <Link href="https://g.co/kgs/GcVBgQe">
+                    <p className="flex items-center gap-2 text-sm">
                       <span>Get Direction</span>
                       <ArrowRight />
                     </p>
@@ -105,37 +109,40 @@ const Contact = ({ }) => {
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href="tel:01514286842" className="">01514286842</Link>
+                  <Link href="tel:+442083749043" className="">
+                    +442083749043
+                  </Link>
                 </div>
               </div>
               <div className="flex items-center gap-6">
                 <div>
-                  <div className="h-fit w-fit rounded-full  p-2">
+                  <div className="h-fit w-fit rounded-full p-2">
                     <Mail />
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <Link href="mailto:info@istanbulbargrill.co.uk"
-                    className="">info@istanbulbargrill.co.uk</Link>
+                  <Link href="mailto:info@istanbulbargrill.co.uk" className="">
+                    info@istanbulbargrill.co.uk
+                  </Link>
                 </div>
               </div>
-              <div className="flex justify-start gap-4 items-center">
-                <Link href='https://www.instagram.com/istanbulwoolton/'>
+              <div className="flex items-center justify-start gap-4">
+                <Link href="https://www.instagram.com/istanbulwoolton/">
                   <Icons.instagram />
                 </Link>
-                <Link href='https://www.tripadvisor.co.uk/Restaurant_Review-g186337-d7312552-Reviews-Istanbul_Bar_Grill_Woolton-Liverpool_Merseyside_England.html'>
+                {/* <Link href="https://www.tripadvisor.co.uk/Restaurant_Review-g186337-d7312552-Reviews-Istanbul_Bar_Grill_Woolton-Liverpool_Merseyside_England.html">
                   <Icons.unknown />
-                </Link>
-                <Link href='https://in.search.yahoo.com/search;_ylt=AwrKEbVGvTlngQIAeua7HAx.;_ylc=X1MDMjExNDcyMzAwMwRfcgMyBGZyA21jYWZlZV9lLTI2ODYwXzNQQy12BGZyMgNzYi10b3AEZ3ByaWQDdmVyd1pwdWpTbTZxZU5RN2lEMjJOQQRuX3JzbHQDMARuX3N1Z2cDMARvcmlnaW4DaW4uc2VhcmNoLnlhaG9vLmNvbQRwb3MDMARwcXN0cgMEcHFzdHJsAzAEcXN0cmwDMzAEcXVlcnkDaXN0YW5idWwlMjBiYXIlMjBhbmQlMjBncmlsbCUyMHdvb2x0b24EdF9zdG1wAzE3MzE4MzcyNzE-?p=istanbul+bar+and+grill+woolton&fr=mcafee_e-26860_3PC-v&type=F210IN714G91841MNhJ%2BFSIbRCCvKdyV%2F2R5GgXXfvl%2BaCFyile5iUQkkoM%3D&fr2=sb-top'>
+                </Link> */}
+                <Link href="https://g.co/kgs/GcVBgQe">
                   <Icons.google />
                 </Link>
-                <Link href='https://www.facebook.com/Istanbulwoolton/'>
+                <Link href="https://www.facebook.com/tvlondra1/videos/londra-enfieldda-antephan-baklava-k%C3%BCnefe-ve-pasta-a%C3%A7%C4%B1ld%C4%B1-baklava-k%C3%BCnefe/583772730789823/">
                   <Icons.facebook />
                 </Link>
               </div>
             </div>
           </div>
-          <div className="flex w-full flex-col bg-[#fff5e5] lg:w-1/2 lg:items-center lg:justify-center">
+          <div className="flex w-full flex-col bg-[#fff] lg:w-1/2 lg:items-center lg:justify-center">
             <div className="w-full px-3 lg:w-4/5 lg:px-0">
               <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="h-full">
@@ -150,7 +157,7 @@ const Contact = ({ }) => {
                               <Input
                                 placeholder="First Name"
                                 {...field}
-                                className="h-12 rounded-xl bg-white"
+                                className="h-12 rounded-xl bg-[#d8d6d6] placeholder:text-[#000]"
                               />
                             </FormControl>
                             <FormMessage />
@@ -166,7 +173,7 @@ const Contact = ({ }) => {
                               <Input
                                 placeholder="Phone"
                                 {...field}
-                                className="h-12 rounded-xl bg-white"
+                                className="h-12 rounded-xl bg-[#d8d6d6] placeholder:text-[#000]"
                               />
                             </FormControl>
                             <FormMessage />
@@ -182,7 +189,7 @@ const Contact = ({ }) => {
                               <Input
                                 placeholder="Email"
                                 {...field}
-                                className="h-12 rounded-xl bg-white"
+                                className="h-12 rounded-xl bg-[#d8d6d6] placeholder:text-[#000]"
                               />
                             </FormControl>
                             <FormMessage />
@@ -194,12 +201,14 @@ const Contact = ({ }) => {
                         name="message"
                         render={({ field }) => (
                           <FormItem className="w-full">
-                            <FormLabel>Reason for contacting (optional)</FormLabel>
+                            <FormLabel>
+                              Reason for contacting (optional)
+                            </FormLabel>
                             <FormControl>
                               <Textarea
                                 placeholder="Your Message"
                                 {...field}
-                                className="h-32 rounded-xl bg-white"
+                                className="h-32 rounded-xl bg-[#d8d6d6] placeholder:text-[#000]"
                               />
                             </FormControl>
                             <FormMessage />
@@ -209,7 +218,12 @@ const Contact = ({ }) => {
                     </div>
                   </div>
                   <div className="flex w-full flex-col pt-7 lg:flex-row">
-                    <Button className="w-full font-bai rounded-2xl py-6" disabled={bookTableMutation.isPending}>Contact US</Button>
+                    <Button
+                      className="font-bai w-full rounded-2xl bg-[#C19D56] py-6 hover:bg-[#e4bb68]"
+                      disabled={bookTableMutation.isPending}
+                    >
+                      Contact US
+                    </Button>
                   </div>
                 </form>
               </Form>
@@ -217,19 +231,24 @@ const Contact = ({ }) => {
           </div>
         </div>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d861.6037461797074!2d-2.8682499999999997!3d53.374436100000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487b1feb87f19015%3A0xd0e5ee710b67c07f!2sIstanbul%20Bar%20%26%20Grill%20-%20Woolton!5e1!3m2!1sen!2sin!4v1731837710937!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2352.6167420666916!2d-0.0500599!3d51.6583401!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761f4f21fc8d2d%3A0xe038868bb0e09aac!2sANTEPHAN%20Baklava%20-%20Kunefe%20-%20Cake!5e1!3m2!1sen!2sin!4v1742988536314!5m2!1sen!2sin"
           style={{ border: 0 }}
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          className="w-full h-[500px]"
+          className="h-[500px] w-full"
         ></iframe>
       </div>
-      <div className="w-full flex overflow-hidden">
-        <Image src='/images/home/herobottom.png' alt="bottom" width={966} height={96} />
-        <Image src='/images/home/herobottom.png' alt="bottom" width={966} height={96} />
+      <div className="flex w-full overflow-hidden">
+        <Image
+          className="h-full w-full object-cover lg:h-[500px]"
+          src="/images/about-us/image3.jpeg"
+          alt="bottom"
+          width={966}
+          height={96}
+        />
       </div>
-    </section >
+    </section>
   );
 };
 

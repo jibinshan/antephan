@@ -32,7 +32,7 @@ const Visit: React.FC = () => {
                         className="mt-1 h-[4px] w-[70px] items-end"
                       />{" "}
                       <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
-                        09:00 - 21:00h
+                        08:00 - 23:00h
                       </span>
                     </div>
                   </li>
@@ -49,7 +49,7 @@ const Visit: React.FC = () => {
                         className="mt-1 h-[4px] w-[74px] items-end"
                       />{" "}
                       <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
-                        09:00 - 21:00h
+                        08:00 - 23:00h{" "}
                       </span>
                     </div>
                   </li>
@@ -66,7 +66,7 @@ const Visit: React.FC = () => {
                         className="mt-1 h-[4px] w-[52px] items-end"
                       />{" "}
                       <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
-                        09:00 - 21:00h
+                        08:00 - 23:00h{" "}
                       </span>
                     </div>
                   </li>
@@ -83,7 +83,7 @@ const Visit: React.FC = () => {
                         className="mt-1 h-[4px] w-[70px] items-end"
                       />{" "}
                       <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
-                        09:00 - 21:00h
+                        08:00 - 23:00h{" "}
                       </span>
                     </div>
                   </li>
@@ -100,7 +100,7 @@ const Visit: React.FC = () => {
                         className="mt-1 h-[4px] w-[85px] items-end"
                       />{" "}
                       <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
-                        09:00 - 21:00h
+                        08:00 - 23:00h{" "}
                       </span>
                     </div>
                   </li>
@@ -117,7 +117,7 @@ const Visit: React.FC = () => {
                         className="mt-1 h-[4px] w-[70px] items-end"
                       />{" "}
                       <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
-                        10:00 - 21:00h
+                        08:00 - 23:00h{" "}
                       </span>
                     </div>
                   </li>
@@ -134,7 +134,7 @@ const Visit: React.FC = () => {
                         className="mt-1 h-[4px] w-[80px] items-end"
                       />{" "}
                       <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
-                        12:00 - 19:00h
+                        08:00 - 23:00h{" "}
                       </span>
                     </div>
                   </li>
@@ -164,11 +164,14 @@ const Visit: React.FC = () => {
           <hr className="w-[90px] border-[1px] border-[#c19d56]" />
 
           <p className="w-full max-w-[630px] font-cormorant text-sm font-[200] italic leading-[20px] tracking-[0.80px] text-[#FFF] opacity-85">
-            Lorem ipsum dolor sit amet, ne nulla quidam causae qui, dicam
-            mandamus est ad. Qui officiis gloriatur id. Vivendo verterem
-            definitionem id nam, altera nostrud quaestio has ut, ea facilis
-            ocurreret per. Euripidis pertinacia ullamcorper ne ius, has tale.
+            Antephan, a place where history meets elegance. Nestled in the heart
+            of timeless architecture, it offers an experience unlike any other.
+            From its rich cultural heritage to breathtaking landscapes, every
+            moment spent here is a journey into beauty and serenity. Come and
+            explore the wonders of Antephan, where the past and present blend
+            seamlessly.
           </p>
+
           <div className="mt-4 flex flex-col gap-6 md:flex-row md:gap-28">
             <div>
               <ul className="flex flex-col gap-4">
@@ -181,7 +184,7 @@ const Visit: React.FC = () => {
                     className="h-[22px] w-[22px]"
                   />
                   <span className="font-cormorant text-[13px] font-[200] italic leading-[20px] text-white opacity-85">
-                    Friedrichstrase 123, 10117 Berlin
+                    240 Hertford Rd, London EN3 5BL, United Kingdom{" "}
                   </span>
                 </li>
                 <li className="flex flex-row items-center gap-2">
@@ -193,7 +196,7 @@ const Visit: React.FC = () => {
                     className="h-[22px] w-[22px]"
                   />
                   <span className="font-cormorant text-[13px] font-[200] italic leading-[20px] text-white opacity-85">
-                    99411 - 7253931
+                    +442083749043{" "}
                   </span>
                 </li>
               </ul>

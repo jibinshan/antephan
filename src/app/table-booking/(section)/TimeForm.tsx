@@ -37,7 +37,6 @@ interface TimeFormProps {
   setpage: (value: number | ((page: number) => number)) => void;
 }
 
-
 export const formValidation = z.object({
   guests: z.string().min(1, { message: "Please select number of guests." }),
   date: z.date({ required_error: "Please select a date." }),
@@ -136,31 +135,38 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
   const guestNumbers = Array.from({ length: 15 }, (_, i) => i + 1);
 
   const onSubmit = (data: FormValues) => {
-    mainform.setValue('guests', data.guests)
-    mainform.setValue('time', data.time)
-    mainform.setValue('date', data.date)
-    setDisable(true)
+    mainform.setValue("guests", data.guests);
+    mainform.setValue("time", data.time);
+    mainform.setValue("date", data.date);
+    setDisable(true);
     setpage(1);
     window.scrollBy({ top: -350, behavior: "smooth" });
-  }
+  };
 
   return (
     <div className="flex w-full flex-col items-center justify-center gap-3">
-      <p className="text-3xl font-semibold text-black">Request a reservation</p>
-      <p className="text-black">Select your details and we`ll try get the best seats for you</p>
+      <p className="text-3xl font-semibold text-[#C19D56]">
+        Request a reservation
+      </p>
+      <p className="text-black">
+        Select your details and we`ll try get the best seats for you
+      </p>
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className="w-full flex flex-col items-center justify-center gap-2"
+          className="flex w-full flex-col items-center justify-center gap-2"
         >
-          <div className="grid w-full grid-cols-1 gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid w-full max-w-[700px] grid-cols-1 gap-6 py-12 md:grid-cols-2">
             <FormField
               control={form.control}
               name="guests"
               render={({ field }) => (
                 <FormItem>
                   <FormLabel className="text-black">No of Guests</FormLabel>
-                  <Select onValueChange={field.onChange} defaultValue={field.value}>
+                  <Select
+                    onValueChange={field.onChange}
+                    defaultValue={field.value}
+                  >
                     <FormControl>
                       <SelectTrigger className="h-12 border-muted bg-transparent text-black">
                         <SelectValue placeholder="Select guests" />
@@ -168,7 +174,11 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
                     </FormControl>
                     <SelectContent className="max-h-[300px]">
                       {guestNumbers.map((num) => (
-                        <SelectItem key={num} value={num.toString()} className="text-black">
+                        <SelectItem
+                          key={num}
+                          value={num.toString()}
+                          className="text-black"
+                        >
                           {num} {num === 1 ? "Guest" : "Guests"}
                         </SelectItem>
                       ))}
@@ -185,15 +195,12 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
               render={({ field }) => (
                 <FormItem className="">
                   <FormLabel className="text-black">Date</FormLabel>
-                  <Popover
-                    open={isPopoverOpen}
-                    onOpenChange={setIsPopoverOpen}
-                  >
+                  <Popover open={isPopoverOpen} onOpenChange={setIsPopoverOpen}>
                     <PopoverTrigger asChild>
                       <FormControl>
                         <Button
                           variant={"outline"}
-                          className={`h-12 w-full justify-start border-muted bg-transparent text-left font-normal text-black hover:text-black`}
+                          className={`h-12 w-full justify-start border-muted bg-transparent text-left font-normal text-black hover:bg-[#C19D56] hover:text-white`}
                         >
                           <CalendarIcon className="mr-2 h-4 w-4 text-black" />
                           {field.value ? (
@@ -224,19 +231,24 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
               )}
             />
 
-            {form.watch('date') ?
+            {form.watch("date") ? (
               <FormField
                 control={form.control}
                 name="time"
                 render={({ field }) => (
                   <FormItem>
                     <FormLabel className="text-black">Time</FormLabel>
-                    <Select onValueChange={field.onChange} defaultValue={field.value}>
+                    <Select
+                      onValueChange={field.onChange}
+                      defaultValue={field.value}
+                    >
                       <FormControl>
                         <SelectTrigger className="h-12 border-muted bg-transparent text-black">
                           <SelectValue
                             placeholder={
-                              form.watch("time") ? form.watch("time") : "Select time"
+                              form.watch("time")
+                                ? form.watch("time")
+                                : "Select time"
                             }
                           />
                         </SelectTrigger>
@@ -253,11 +265,11 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
                   </FormItem>
                 )}
               />
-              :
+            ) : (
               <div></div>
-            }
+            )}
           </div>
-          {form.watch('date') &&
+          {form.watch("date") && (
             <div className="flex w-full flex-col gap-4 py-12">
               <p className="text-black">Choose an available time slot:</p>
               <div className="custom-scrollbar grid h-[250px] grid-cols-2 gap-6 overflow-y-scroll md:grid-cols-4 lg:grid-cols-5">
@@ -275,16 +287,16 @@ const TimeForm: FC<TimeFormProps> = ({ mainform, setpage }) => {
                 ))}
               </div>
             </div>
-          }
+          )}
           <Button
-            className="w-fit px-6 py-6"
+            className="w-fit bg-[#C19D56] px-6 py-6 hover:bg-[#e4bb68]"
             disabled={disable}
           >
             Book A Table
           </Button>
         </form>
       </Form>
-    </div >
+    </div>
   );
 };
 

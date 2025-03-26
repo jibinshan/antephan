@@ -20,10 +20,13 @@ const Footer: React.FC = () => {
           <h3 className="tex-[13px] text-center font-montserrat font-semibold tracking-[1.08px] text-white md:text-start">
             Contact
           </h3>
-          <p className="text-center font-cormorant text-[12px] font-normal italic leading-[20px] text-white opacity-60 md:text-start">
-            Heinrichstrasse 267c / 3. Stock 8005 Zürich <br />{" "}
-            E-mail:dolcino@qodeinteractive.com <br /> Phone:+88(0) 101 0000 000
-          </p>
+          <span className="text-center font-cormorant text-[12px] font-normal italic leading-[20px] text-white opacity-60 md:text-start">
+            <Link href={""} target="_blank">
+              240 Hertford Rd, London EN3 5BL, United Kingdom
+            </Link>
+            <br /> <Link href={""}>E-mail:dolcino@qodeinteractive.com</Link>{" "}
+            <br /> <Link href={"tel:+442083749043"}>+442083749043</Link>
+          </span>
         </div>
         <div className="flex flex-col items-center justify-center gap-4">
           <Image
@@ -70,10 +73,10 @@ const Footer: React.FC = () => {
                   variant="link"
                   className="px-0 font-montserrat text-[12px] font-normal uppercase leading-[20px] tracking-[2.40px] text-accent hover:text-primary"
                 >
-                  <Link href="/contact">ABOUT US</Link>
+                  <Link href="/about-us">ABOUT US</Link>
                 </Button>
               </li>
-              <li>
+              {/* <li>
                 <Button
                   asChild
                   variant="link"
@@ -81,7 +84,7 @@ const Footer: React.FC = () => {
                 >
                   <Link href="/table-booking">BRANCH</Link>
                 </Button>
-              </li>
+              </li> */}
               <li>
                 {" "}
                 <Button
@@ -97,7 +100,7 @@ const Footer: React.FC = () => {
           <div>
             <ul className="mt-8 flex flex-row gap-5">
               <li>
-                <Link href="#">
+                <Link href="https://www.facebook.com/tvlondra1/videos/londra-enfieldda-antephan-baklava-k%C3%BCnefe-ve-pasta-a%C3%A7%C4%B1ld%C4%B1-baklava-k%C3%BCnefe/583772730789823/">
                   <Image
                     src="/images/home/footer/fb.png"
                     width={101}
@@ -107,7 +110,7 @@ const Footer: React.FC = () => {
                   />
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="#">
                   <Image
                     src="/images/home/footer/twiter.png"
@@ -117,9 +120,9 @@ const Footer: React.FC = () => {
                     className="h-[40px] w-[40px]"
                   />
                 </Link>
-              </li>
+              </li> */}
               <li>
-                <Link href="#">
+                <Link href="https://www.instagram.com/antephan.baklava.uk/">
                   <Image
                     src="/images/home/footer/insta.png"
                     width={101}
@@ -145,7 +148,10 @@ const Footer: React.FC = () => {
                     className="h-[24px] w-[24px]"
                   />
                   <span className="font-montserrat text-[13px] font-medium uppercase leading-[26px] tracking-[2.4px] text-primary">
-                    Find our Location
+                    <Link href={"https://g.co/kgs/aAeqC9N"} target="_blank">
+                      {" "}
+                      Find our Location
+                    </Link>
                   </span>
                 </div>
               </div>
@@ -170,7 +176,7 @@ const Footer: React.FC = () => {
                     className="h-[24px] w-[24px]"
                   />
                   <span className="font-montserrat text-[13px] font-medium uppercase leading-[26px] tracking-[2.4px] text-primary">
-                    Explore Our Menu
+                    <Link href={"/menu"}>Explore Our Menu</Link>
                   </span>
                 </div>
               </div>

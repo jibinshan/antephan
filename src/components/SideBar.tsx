@@ -44,26 +44,29 @@ const Sidebar: FC<SidebarProps> = ({ children }) => {
               Menu
             </Link>
             <Link
-              href="/contact"
+              href="/about-us"
               className="px-0 font-montserrat text-[22px] font-semibold uppercase leading-[20px] tracking-[2.40px] text-accent text-black hover:text-primary"
             >
               ABOUT US
             </Link>
-            <Link
+            {/* <Link
               href="/table-booking"
               className="px-0 font-montserrat text-[22px] font-semibold uppercase leading-[20px] tracking-[2.40px] text-accent text-black hover:text-primary"
             >
               BRANCH
+            </Link> */}
+            <Link
+              href="/contact"
+              className="px-0 font-montserrat text-[22px] font-semibold uppercase leading-[20px] tracking-[2.40px] text-accent text-black hover:text-primary"
+            >
+              Contact
             </Link>
             <Link
               href="/table-booking"
               className="px-0 font-montserrat text-[22px] font-semibold uppercase leading-[20px] tracking-[2.40px] text-accent text-black hover:text-primary"
             >
-              BOOKING
-            </Link>
-            <Button className="mt-3 rounded-none px-3 py-2 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-black">
               BOOK TABLE
-            </Button>
+            </Link>
           </SheetDescription>
         </SheetHeader>
       </SheetContent>

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Reserve: React.FC = () => {
@@ -100,7 +101,7 @@ const Reserve: React.FC = () => {
             kunefe and katmer sector with the Antebim kunefe brand
           </p>
           <Button className="rounded-none bg-primary px-6 py-5 font-montserrat text-xs font-extralight uppercase tracking-[2.4px] ring-1 ring-primary ring-offset-1 ring-offset-black">
-            Book Table
+            <Link href="/table-booking">Book Table</Link>
           </Button>
         </div>
       </div>

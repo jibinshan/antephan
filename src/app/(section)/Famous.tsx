@@ -78,7 +78,7 @@ const Famous: React.FC = () => {
               </li>
               <li className="flex w-full flex-row items-center justify-center gap-3">
                 <Image
-                  src="/images/home/famous/Ellipse.svg"
+                  src="/images/home/famous/Ellipse2.png"
                   width={100}
                   height={100}
                   alt="underline"
@@ -107,7 +107,7 @@ const Famous: React.FC = () => {
               </li>
               <li className="flex w-full flex-row items-center justify-center gap-3">
                 <Image
-                  src="/images/home/famous/Ellipse.svg"
+                  src="/images/home/famous/Ellipse3.png"
                   width={100}
                   height={100}
                   alt="underline"
@@ -136,7 +136,7 @@ const Famous: React.FC = () => {
               </li>
               <li className="flex w-full flex-row items-center justify-center gap-3">
                 <Image
-                  src="/images/home/famous/Ellipse.svg"
+                  src="/images/home/famous/Ellipse4.png"
                   width={100}
                   height={100}
                   alt="underline"
@@ -169,7 +169,7 @@ const Famous: React.FC = () => {
             <ul className="flex flex-col gap-5">
               <li className="flex w-full flex-row items-center justify-center gap-3">
                 <Image
-                  src="/images/home/famous/Ellipse.svg"
+                  src="/images/home/famous/Ellipse5.png"
                   width={100}
                   height={100}
                   alt="underline"
@@ -198,7 +198,7 @@ const Famous: React.FC = () => {
               </li>
               <li className="flex w-full flex-row items-center justify-center gap-3">
                 <Image
-                  src="/images/home/famous/Ellipse.svg"
+                  src="/images/home/famous/Ellipse6.png"
                   width={100}
                   height={100}
                   alt="underline"
@@ -227,7 +227,7 @@ const Famous: React.FC = () => {
               </li>
               <li className="flex w-full flex-row items-center justify-center gap-3">
                 <Image
-                  src="/images/home/famous/Ellipse.svg"
+                  src="/images/home/famous/Ellipse7.png"
                   width={100}
                   height={100}
                   alt="underline"
@@ -256,7 +256,7 @@ const Famous: React.FC = () => {
               </li>
               <li className="flex w-full flex-row items-center justify-center gap-3">
                 <Image
-                  src="/images/home/famous/Ellipse.svg"
+                  src="/images/home/famous/Ellipse8.png"
                   width={100}
                   height={100}
                   alt="underline"

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Kunefe: React.FC = () => {
@@ -82,7 +83,7 @@ const Kunefe: React.FC = () => {
         </ul>
         <div className="mt-4">
           <Button className="mt-3 rounded-none px-6 py-5 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-white hover:text-black">
-            VIEW MENU
+            <Link href="/menu">VIEW MENU</Link>
           </Button>
         </div>
       </div>
