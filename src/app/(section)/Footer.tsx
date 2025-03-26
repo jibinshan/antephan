@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
             <Link href={""} target="_blank">
               240 Hertford Rd, London EN3 5BL, United Kingdom
             </Link>
-            <br /> <Link href={""}>E-mail:dolcino@qodeinteractive.com</Link>{" "}
+            {/* <br /> <Link href={""}>E-mail:dolcino@qodeinteractive.com</Link>{" "} */}
             <br /> <Link href={"tel:+442083749043"}>+442083749043</Link>
           </span>
         </div>

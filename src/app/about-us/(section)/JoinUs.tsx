@@ -7,13 +7,13 @@ const JoinUs = ({}) => {
     <section
       className="relative flex h-screen w-full items-center justify-center"
       style={{
-        backgroundImage: `url('/images/about-us/join-us.png')`,
+        backgroundImage: `url('/images/about-us/image4.jpeg')`,
         backgroundSize: "cover",
       }}
     >
       <div className="flex h-full w-full flex-col-reverse items-center justify-center gap-4 md:flex-row">
         <div className="flex h-full w-full flex-col items-center justify-center gap-[2.5rem] p-6">
-          <h1 className="font-oswald max-w-[500px] text-center text-5xl leading-[60px] text-[#C19D56]">
+          <h1 className="font-oswald max-w-[500px] text-center text-5xl leading-[60px] text-[#fff]">
             Join Us for an
             <br />
             Unforgettable Meal

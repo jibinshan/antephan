@@ -114,7 +114,7 @@ const Contact = ({}) => {
                   </Link>
                 </div>
               </div>
-              <div className="flex items-center gap-6">
+              {/* <div className="flex items-center gap-6">
                 <div>
                   <div className="h-fit w-fit rounded-full p-2">
                     <Mail />
@@ -125,7 +125,7 @@ const Contact = ({}) => {
                     info@istanbulbargrill.co.uk
                   </Link>
                 </div>
-              </div>
+              </div> */}
               <div className="flex items-center justify-start gap-4">
                 <Link href="https://www.instagram.com/istanbulwoolton/">
                   <Icons.instagram />
