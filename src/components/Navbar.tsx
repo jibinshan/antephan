@@ -50,7 +50,7 @@ const Navbar = ({
               variant="link"
               className={`px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] ${
                 pathname === "/"
-                  ? "text-accent hover:text-primary"
+                  ? "text-[#FFF] hover:text-primary"
                   : "text-[#000] hover:text-primary"
               }`}
             >
@@ -61,7 +61,7 @@ const Navbar = ({
               variant="link"
               className={`px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] ${
                 pathname === "/"
-                  ? "text-accent hover:text-primary"
+                  ? "text-[#FFF] hover:text-primary"
                   : "text-[#000] hover:text-primary"
               }`}
             >
@@ -72,7 +72,7 @@ const Navbar = ({
               variant="link"
               className={`px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] ${
                 pathname === "/"
-                  ? "text-accent hover:text-primary"
+                  ? "text-[#FFF] hover:text-primary"
                   : "text-[#000] hover:text-primary"
               }`}
             >
@@ -81,7 +81,7 @@ const Navbar = ({
             {/* <Button
               asChild
               variant="link"
-              className="px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] text-accent hover:text-primary"
+              className="px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] text-[#FFF] hover:text-primary"
             >
               <Link href="/table-booking">BRANCH</Link>
             </Button> */}
@@ -90,7 +90,7 @@ const Navbar = ({
               variant="link"
               className={`px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] ${
                 pathname === "/"
-                  ? "text-accent hover:text-primary"
+                  ? "text-[#FFF] hover:text-primary"
                   : "text-[#000] hover:text-primary"
               }`}
             >

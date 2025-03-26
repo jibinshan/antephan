@@ -1,5 +1,6 @@
 import { Icons } from "@/components/Icon";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const JoinUs = ({}) => {
   return (
@@ -18,16 +19,17 @@ const JoinUs = ({}) => {
             Unforgettable Meal
           </h1>
           <p className="max-w-[450px] text-center font-light leading-[160%] text-[#fff]">
-            Ready to experience the best steak of your life? Whether it`s a cozy
-            dinner for two or a large celebration, Bavette welcomes you to come
-            and savor the flavors we`ve perfected over the years. Let us show
-            you what makes steak at Bavette an unforgettable experience.
+            Step into the world of Antephan, where every cut is a masterpiece.
+            Whether you seek an intimate dinner or a grand celebration, we
+            invite you to indulge in flavors crafted with precision and passion.
+            Experience the true art of steak, redefined.
           </p>
+
           <Button
             variant="outline"
             className="group w-fit items-center gap-[1.19rem] border-primary bg-transparent py-7 font-semibold uppercase text-white hover:bg-[#C19D56]"
           >
-            Book Now{" "}
+            <Link href={"/table-booking"}> Book Now</Link>
             <Icons.rightArrow className="text-primary duration-300 ease-in-out group-hover:translate-x-1 group-hover:text-primary-foreground" />
           </Button>
         </div>
