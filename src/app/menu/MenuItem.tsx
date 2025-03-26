@@ -22,13 +22,13 @@ export default function MenuItem({ item }: { item: MenuItem }) {
         <div className="flex w-full flex-col items-center justify-between gap-4 bg-itembackground p-4">
             <Link className="flex w-full flex-row justify-between gap-4" href={`/menu/${item._id}`}>
                 <div>
-                    <p className="text-lg font-bold text-white">
+                    <p className="text-lg font-bold text-menusecondary">
                         {item.name} {item.isVeg && <span className="rounded-full bg-[#46f781] px-2 py-1 text-sm text-white">V</span>}
                     </p>
                     <p className="line-clamp-2 text-sm text-itemdescription">{item.description}</p>
                 </div>
                 <div>
-                    {!item.extras.hideMenuThumbNailImages && item.images.length > 0 ? (
+                    {!item.extras?.hideMenuThumbNailImages && item.images.length > 0 ? (
                         <Image src={item.images[0]!} className="max-h-28 min-h-28 min-w-28 max-w-28 object-cover" alt={item.name} width={1980} height={1080} />
                     ) : (
                         <div className="h-28 w-28 rounded-md"></div>
@@ -55,7 +55,7 @@ export default function MenuItem({ item }: { item: MenuItem }) {
                                         item.modifiers.map((mod, index) =>
                                             GetModifiersFromItemId(item, items, index).map((modifier) => {
                                                 if (modifier._id === item.modifiers.find((modifier) => modifier.defaultSelection)?.defaultSelection) {
-                                                    return `${getCurrencySymbol(modifier.price.currency)} ${modifier.price.value}`;
+                                                    return `${getCurrencySymbol(modifier.price.currency)} ${formattedItemPrice(modifier.price.value)}`;
                                                 }
                                             })
                                         )
@@ -68,17 +68,19 @@ export default function MenuItem({ item }: { item: MenuItem }) {
                 {isOpen &&
                     item.extras?.availability?.days.includes(format(Date.now(), "EEEE").toLowerCase()) &&
                     item.extras?.menuItemOrderType === "both" &&
+                    restaurant?.onlineOrder &&
+                    (restaurant?.isDeliveryEnabled || restaurant.isTakeAwayEnabled) &&
                     (cartItems.find((cart) => cart._idMenuItem === item._id)?._idMenuItem === item._id ? (
                         item && (
                             <MenuChoosing item={item}>
-                                <Button variant="secondary" className="rounded-none bg-menuprimary px-8 text-lg font-bold text-menuforeground hover:bg-menuprimary">
+                                <Button variant="secondary" className="rounded-none bg-menuprimary px-8 text-lg font-bold text-menuforeground hover:bg-buttonhover">
                                     Add
                                 </Button>
                             </MenuChoosing>
                         )
                     ) : (
                         <Link href={`/menu/${item._id}`}>
-                            <Button variant="secondary" className="rounded-none bg-menuprimary px-8 text-lg font-bold text-menuforeground hover:bg-menuprimary">
+                            <Button variant="secondary" className="rounded-none bg-menuprimary px-8 text-lg font-bold text-menuforeground hover:bg-buttonhover">
                                 Add
                             </Button>
                         </Link>

@@ -27,7 +27,7 @@ const BavetteStory = ({}) => {
             </h1>
             <p className="max-w-[450px] text-center font-light leading-[160%] text-[#000] md:text-start">
               What started as a vision to create something extraordinary soon
-              became the heart of Antephan's identity. In 2010, founders Elias
+              became the heart of Antephan`s identity. In 2010, founders Elias
               and Victor set out with a singular mission—to craft an experience
               that blended heritage, culture, and excellence. From a small
               artisan workshop to a renowned destination, Antephan has remained
