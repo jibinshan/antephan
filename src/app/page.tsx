@@ -2,14 +2,14 @@ import Navbar from "@/components/Navbar";
 import HeroSection from "./(section)/Hero";
 import Taste from "./(section)/Taste";
 import Kunefe from "./(section)/Kunefe";
-import Classic from "./(section)/Classic";
+// import Classic from "./(section)/Classic";
 import Reserve from "./(section)/Reserve";
 import Footer from "./(section)/Footer";
 import CheckOut from "./(section)/Checkout";
 import Dealer from "./(section)/Dealer";
-import Customer from "./(section)/Customer";
+// import Customer from "./(section)/Customer";
 import Visit from "./(section)/Visit";
-import Famous from "./(section)/Famous";
+// import Famous from "./(section)/Famous";
 import Special from "./(section)/(special)/Special";
 import Reviews from "./(section)/Review";
 
@@ -24,7 +24,7 @@ export default function HomePage() {
         {/* <Classic /> */}
         <Special />
         <Reserve />
-        <Famous />
+        {/* <Famous /> */}
         <Dealer />
         {/* <Customer /> */}
         <Reviews />
