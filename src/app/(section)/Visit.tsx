@@ -203,7 +203,7 @@ const Visit: React.FC = () => {
             </div>
             <div>
               <ul className="flex flex-col gap-4">
-                <li className="flex flex-row items-center gap-2">
+{/*                 <li className="flex flex-row items-center gap-2">
                   <Image
                     src="/images/home/visit/mail.svg"
                     width={100}
@@ -214,8 +214,8 @@ const Visit: React.FC = () => {
                   <span className="font-cormorant text-[13px] font-[200] italic leading-[20px] text-white opacity-85">
                     dolcino@qodeinteractive.com
                   </span>
-                </li>
-                <li className="flex flex-row items-center gap-2">
+                </li> */}
+{/*                 <li className="flex flex-row items-center gap-2">
                   <Image
                     src="/images/home/visit/system.svg"
                     width={100}
@@ -226,7 +226,7 @@ const Visit: React.FC = () => {
                   <span className="font-cormorant text-[13px] font-[200] italic leading-[20px] text-white opacity-85">
                     dolcino@qodeinteractive.com
                   </span>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
