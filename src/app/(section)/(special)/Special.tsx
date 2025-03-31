@@ -10,41 +10,7 @@ const slideData: {
   price: string;
   name: string;
 }[] = [
-  {
-    name: "Chicken Shish",
-    price: "40",
-    modelUrl: "/models/chicken-shish.glb",
-  },
-  {
-    name: "Grilled Sea Bass",
-    price: "50",
-    modelUrl: "/models/grilled-sea-bass-(levrek).glb",
-  },
-  {
-    name: "Lamb Doner",
-    price: "60",
-    modelUrl: "/models/lamb-doner.glb",
-  },
-  {
-    name: "Lamb Kofte Beyti",
-    price: "80",
-    modelUrl: "/models/lamb-kofte-beyti.glb",
-  },
-  {
-    name: "Lamb Shank",
-    price: "100",
-    modelUrl: "/models/lamb-shank.glb",
-  },
-  {
-    name: "Mix Kebab",
-    price: "100",
-    modelUrl: "/models/mix-kebab-for-one.glb",
-  },
-  {
-    name: "Mix Platter",
-    price: "100",
-    modelUrl: "/models/mix-platter-for-2.glb",
-  },
+  
 ];
 const Special = ({}) => {
   return (
