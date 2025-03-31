@@ -176,7 +176,7 @@ const Footer: React.FC = () => {
                     className="h-[24px] w-[24px]"
                   />
                   <span className="font-montserrat text-[13px] font-medium uppercase leading-[26px] tracking-[2.4px] text-primary">
-                    <Link href={"/menu"}>Explore Our Menu</Link>
+                    <Link href={"/table-booking"}>Table Booking</Link>
                   </span>
                 </div>
               </div>
