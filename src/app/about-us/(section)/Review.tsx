@@ -64,7 +64,7 @@ const Reviews = ({}) => {
                         />
                       </div>
                       <div className="mb-4 flex w-full justify-center">
-                        {Array.from({ length: review.rating }).map(
+                        {Array.from({ length: review?.rating }).map(
                           (_, index) => (
                             <Icons.star key={index} className="text-primary" />
                           ),
@@ -72,26 +72,26 @@ const Reviews = ({}) => {
                       </div>
                       <div className="">
                         <p className="line-clamp-5 text-center font-poppins text-sm tracking-[1.18px] text-[#000]">
-                          {review.text}
+                          {review?.text?.text}
                         </p>
                       </div>
                     </div>
                     <div className="flex w-full flex-col items-center justify-center gap-2 pb-8">
                       <Image
                         src={
-                          review.profile_photo_url ||
+                          review?.authorAttribution?.photoUri ||
                           "/images/home/customer/user.svg"
                         }
                         width={54}
                         height={54}
-                        alt={review.author_name}
+                        alt={review?.authorAttribution?.displayName}
                       />
                       <div className="flex flex-col items-center justify-center">
                         <p className="font-montserrat text-base font-[700] uppercase tracking-[4px] text-[#595959]">
-                          {review.author_name}
+                          {review?.authorAttribution?.displayName}
                         </p>
                         <span className="font-montserrat text-sm font-[400] tracking-[0.90px] text-[#292929]">
-                          {review.relative_time_description}
+                          {review?.relativePublishTimeDescription}
                         </span>
                       </div>
                     </div>
