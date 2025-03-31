@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
                   <Link href="/">Home</Link>
                 </Button>
               </li>
-              <li>
+{/*               <li>
                 {" "}
                 <Button
                   asChild
@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
                 >
                   <Link href="/menu">Menu</Link>
                 </Button>
-              </li>
+              </li> */}
               <li>
                 <Button
                   asChild
