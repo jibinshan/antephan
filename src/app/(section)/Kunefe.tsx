@@ -83,7 +83,7 @@ const Kunefe: React.FC = () => {
         </ul>
         <div className="mt-4">
           <Button className="mt-3 rounded-none px-6 py-5 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-white hover:text-black">
-            <Link href="/menu">VIEW MENU</Link>
+            <Link href="/table-booking">Table Booking</Link>
           </Button>
         </div>
       </div>
