@@ -65,7 +65,7 @@ const Navbar = ({
                   : "text-[#000] hover:text-primary"
               }`}
             >
-              <Link href="/menu">Menu</Link>
+{/*               <Link href="/menu">Menu</Link> */}
             </Button>
             <Button
               asChild

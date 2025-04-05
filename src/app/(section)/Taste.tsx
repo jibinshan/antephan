@@ -70,11 +70,11 @@ const Taste: React.FC = () => {
           </p>
         </div>
 
-        <div>
+{/*         <div>
           <Button className="mt-3 rounded-none bg-black px-6 py-5 font-montserrat text-[11px] font-extralight leading-[1px] tracking-[2.40px] ring-1 ring-black ring-offset-1 ring-offset-bgBlue">
             OUR STORY
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
