@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
                 <Button
                   asChild
                   variant="link"
-                  className="px-0 font-montserrat text-[12px] font-normal uppercase leading-[20px] tracking-[2.40px] text-accent hover:text-primary"
+                  className="px-0 font-montserrat text-[12px] font-normal uppercase leading-[20px] tracking-[2.40px] text-[#fff] hover:text-primary"
                 >
                   <Link href="/">Home</Link>
                 </Button>
@@ -62,7 +62,7 @@ const Footer: React.FC = () => {
                 <Button
                   asChild
                   variant="link"
-                  className="px-0 font-montserrat text-[12px] font-normal uppercase leading-[20px] tracking-[2.40px] text-accent hover:text-primary"
+                  className="px-0 font-montserrat text-[12px] font-normal uppercase leading-[20px] tracking-[2.40px] text-[#fff] hover:text-primary"
                 >
                   <Link href="/menu">Menu</Link>
                 </Button>
@@ -71,7 +71,7 @@ const Footer: React.FC = () => {
                 <Button
                   asChild
                   variant="link"
-                  className="px-0 font-montserrat text-[12px] font-normal uppercase leading-[20px] tracking-[2.40px] text-accent hover:text-primary"
+                  className="px-0 font-montserrat text-[12px] font-normal uppercase leading-[20px] tracking-[2.40px] text-[#fff] hover:text-primary"
                 >
                   <Link href="/about-us">ABOUT US</Link>
                 </Button>
@@ -80,7 +80,7 @@ const Footer: React.FC = () => {
                 <Button
                   asChild
                   variant="link"
-                  className="px-0 font-montserrat text-[12px] font-normal uppercase leading-[20px] tracking-[2.40px] text-accent hover:text-primary"
+                  className="px-0 font-montserrat text-[12px] font-normal uppercase leading-[20px] tracking-[2.40px] text-[#fff] hover:text-primary"
                 >
                   <Link href="/table-booking">BRANCH</Link>
                 </Button>
@@ -90,7 +90,7 @@ const Footer: React.FC = () => {
                 <Button
                   asChild
                   variant="link"
-                  className="px-0 font-montserrat text-[12px] font-normal uppercase leading-[20px] tracking-[2.40px] text-accent hover:text-primary"
+                  className="px-0 font-montserrat text-[12px] font-normal uppercase leading-[20px] tracking-[2.40px] text-[#fff] hover:text-primary"
                 >
                   <Link href="/table-booking">BOOKING</Link>
                 </Button>

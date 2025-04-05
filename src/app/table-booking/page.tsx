@@ -1,7 +1,7 @@
 import Hero from "@/app/table-booking/(section)/Hero";
 import TableBooking from "@/app/table-booking/(section)/TableBooking";
-import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import Footer from "../(section)/Footer";
 
 export default function HomePage() {
   return (

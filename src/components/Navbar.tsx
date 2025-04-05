@@ -96,7 +96,16 @@ const Navbar = ({
             >
               <Link href="/contact">Contact</Link>
             </Button>
-            <Button className="mt-3 rounded-none px-5 py-5 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-black hover:text-[#000]">
+            {/* <Button className="mt-3 rounded-none px-5 py-5 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-black hover:text-[#000]">
+              <Link href="/table-booking">Book Table</Link>
+            </Button> */}
+            <Button
+              className={`mt-3 rounded-none px-5 py-5 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-black ${
+                pathname === "/"
+                  ? "text-[#FFF] hover:text-[#fff]"
+                  : "text-[#000] hover:text-[#000]"
+              }`}
+            >
               <Link href="/table-booking">Book Table</Link>
             </Button>
           </div>

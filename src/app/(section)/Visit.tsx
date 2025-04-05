@@ -32,7 +32,7 @@ const Visit: React.FC = () => {
                         className="mt-1 h-[4px] w-[70px] items-end"
                       />{" "}
                       <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
-                        08:00 - 23:00h
+                        8:00am - 11:00pm
                       </span>
                     </div>
                   </li>
@@ -49,7 +49,7 @@ const Visit: React.FC = () => {
                         className="mt-1 h-[4px] w-[74px] items-end"
                       />{" "}
                       <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
-                        08:00 - 23:00h{" "}
+                        8:00am - 11:00pm{" "}
                       </span>
                     </div>
                   </li>
@@ -66,7 +66,7 @@ const Visit: React.FC = () => {
                         className="mt-1 h-[4px] w-[52px] items-end"
                       />{" "}
                       <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
-                        08:00 - 23:00h{" "}
+                        8:00am - 11:00pm{" "}
                       </span>
                     </div>
                   </li>
@@ -83,7 +83,7 @@ const Visit: React.FC = () => {
                         className="mt-1 h-[4px] w-[70px] items-end"
                       />{" "}
                       <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
-                        08:00 - 23:00h{" "}
+                        8:00am - 11:00pm{" "}
                       </span>
                     </div>
                   </li>
@@ -100,7 +100,7 @@ const Visit: React.FC = () => {
                         className="mt-1 h-[4px] w-[85px] items-end"
                       />{" "}
                       <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
-                        08:00 - 23:00h{" "}
+                        8:00am - 11:00pm{" "}
                       </span>
                     </div>
                   </li>
@@ -117,7 +117,7 @@ const Visit: React.FC = () => {
                         className="mt-1 h-[4px] w-[70px] items-end"
                       />{" "}
                       <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
-                        08:00 - 23:00h{" "}
+                        8:00am - 11:00pm{" "}
                       </span>
                     </div>
                   </li>
@@ -134,7 +134,7 @@ const Visit: React.FC = () => {
                         className="mt-1 h-[4px] w-[80px] items-end"
                       />{" "}
                       <span className="font-cormorant text-xs font-[200] italic leading-[21px] text-white opacity-80">
-                        08:00 - 23:00h{" "}
+                        8:00am - 11:00pm{" "}
                       </span>
                     </div>
                   </li>
