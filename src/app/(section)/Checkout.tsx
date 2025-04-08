@@ -1,4 +1,6 @@
+import { Icons } from "@/components/Icon";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const CheckOut: React.FC = () => {
@@ -106,6 +108,21 @@ const CheckOut: React.FC = () => {
           </div>
         </div>
       </div> */}
+      <div className="flex items-center justify-center">
+        <Link
+          href={"https://www.instagram.com/antephan.baklava.uk/"}
+          target="_blank"
+        >
+          <Icons.instagram className="h-20 w-20 text-primary md:h-40 md:w-40" />
+        </Link>
+        <Link
+          href={"https://www.instagram.com/antephan.baklava.uk/"}
+          target="_blank"
+          className="text-center font-montserrat text-xl font-[600] uppercase leading-[40px] tracking-[3.2px] text-black md:text-3xl"
+        >
+          Follow Us
+        </Link>
+      </div>
     </section>
   );
 };
