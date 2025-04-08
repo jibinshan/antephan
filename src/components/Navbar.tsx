@@ -44,64 +44,96 @@ const Navbar = ({
           />
         </Link>
         {!isScrolled && (
+          // <div className="hidden flex-row items-center justify-center gap-[3.48rem] md:flex">
+          //   <Button
+          //     asChild
+          //     variant="link"
+          //     className={`px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] ${
+          //       pathname === "/" && "/table-booking"
+          //         ? "text-[#FFF] hover:text-primary"
+          //         : "text-[#000] hover:text-primary"
+          //     }`}
+          //   >
+          //     <Link href="/">Home</Link>
+          //   </Button>
+          //   <Button
+          //     asChild
+          //     variant="link"
+          //     className={`px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] ${
+          //       pathname === "/" && "/table-booking"
+          //         ? "text-[#FFF] hover:text-primary"
+          //         : "text-[#000] hover:text-primary"
+          //     }`}
+          //   >
+          //     {/*               <Link href="/menu">Menu</Link> */}
+          //   </Button>
+          //   <Button
+          //     asChild
+          //     variant="link"
+          //     className={`px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] ${
+          //       pathname === "/" && "/table-booking"
+          //         ? "text-[#FFF] hover:text-primary"
+          //         : "text-[#000] hover:text-primary"
+          //     }`}
+          //   >
+          //     <Link href="/about-us">ABOUT US</Link>
+          //   </Button>
+          //   {/* <Button
+          //     asChild
+          //     variant="link"
+          //     className="px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] text-[#FFF] hover:text-primary"
+          //   >
+          //     <Link href="/table-booking">BRANCH</Link>
+          //   </Button> */}
+          //   <Button
+          //     asChild
+          //     variant="link"
+          //     className={`px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] ${
+          //       pathname === "/" && "/table-booking"
+          //         ? "text-[#FFF] hover:text-primary"
+          //         : "text-[#000] hover:text-primary"
+          //     }`}
+          //   >
+          //     <Link href="/contact">Contact</Link>
+          //   </Button>
+          //   {/* <Button className="mt-3 rounded-none px-5 py-5 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-black hover:text-[#000]">
+          //     <Link href="/table-booking">Book Table</Link>
+          //   </Button> */}
+          //   <Button
+          //     className={`mt-3 rounded-none px-5 py-5 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-black ${
+          //       pathname === "/"
+          //         ? "text-[#FFF] hover:text-[#fff]"
+          //         : "text-[#000] hover:text-[#000]"
+          //     }`}
+          //   >
+          //     <Link href="/table-booking">Book Table</Link>
+          //   </Button>
+          // </div>
+
           <div className="hidden flex-row items-center justify-center gap-[3.48rem] md:flex">
-            <Button
-              asChild
-              variant="link"
-              className={`px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] ${
-                pathname === "/"
-                  ? "text-[#FFF] hover:text-primary"
-                  : "text-[#000] hover:text-primary"
-              }`}
-            >
-              <Link href="/">Home</Link>
-            </Button>
-            <Button
-              asChild
-              variant="link"
-              className={`px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] ${
-                pathname === "/"
-                  ? "text-[#FFF] hover:text-primary"
-                  : "text-[#000] hover:text-primary"
-              }`}
-            >
-{/*               <Link href="/menu">Menu</Link> */}
-            </Button>
-            <Button
-              asChild
-              variant="link"
-              className={`px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] ${
-                pathname === "/"
-                  ? "text-[#FFF] hover:text-primary"
-                  : "text-[#000] hover:text-primary"
-              }`}
-            >
-              <Link href="/about-us">ABOUT US</Link>
-            </Button>
-            {/* <Button
-              asChild
-              variant="link"
-              className="px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] text-[#FFF] hover:text-primary"
-            >
-              <Link href="/table-booking">BRANCH</Link>
-            </Button> */}
-            <Button
-              asChild
-              variant="link"
-              className={`px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] ${
-                pathname === "/"
-                  ? "text-[#FFF] hover:text-primary"
-                  : "text-[#000] hover:text-primary"
-              }`}
-            >
-              <Link href="/contact">Contact</Link>
-            </Button>
-            {/* <Button className="mt-3 rounded-none px-5 py-5 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-black hover:text-[#000]">
-              <Link href="/table-booking">Book Table</Link>
-            </Button> */}
+            {[
+              { href: "/", label: "Home" },
+              // { href: "/menu", label: "Menu" }, // Uncomment when needed
+              { href: "/about-us", label: "ABOUT US" },
+              { href: "/contact", label: "Contact" },
+            ].map(({ href, label }) => (
+              <Button
+                key={href}
+                asChild
+                variant="link"
+                className={`px-0 font-montserrat text-[12px] font-semibold uppercase leading-[20px] tracking-[2.40px] ${
+                  pathname === "/" || pathname === "/table-booking"
+                    ? "text-[#FFF] hover:text-primary"
+                    : "text-[#000] hover:text-primary"
+                }`}
+              >
+                <Link href={href}>{label}</Link>
+              </Button>
+            ))}
+
             <Button
               className={`mt-3 rounded-none px-5 py-5 font-montserrat text-[11px] font-normal leading-[20px] tracking-[2.40px] ring-1 ring-primary ring-offset-1 ring-offset-black ${
-                pathname === "/"
+                pathname === "/" || pathname === "/table-booking"
                   ? "text-[#FFF] hover:text-[#fff]"
                   : "text-[#000] hover:text-[#000]"
               }`}

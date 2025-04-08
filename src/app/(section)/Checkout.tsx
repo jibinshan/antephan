@@ -38,7 +38,7 @@ const CheckOut: React.FC = () => {
           ))}
         </ul>
       </div>
-      <div className="flex h-full w-full items-center justify-center px-4 md:px-28">
+      {/* <div className="flex h-full w-full items-center justify-center px-4 md:px-28">
         <div className="mx-4 flex h-full w-full flex-col items-center justify-center gap-6 py-12 md:flex-row md:gap-0 md:pb-10 md:pt-20">
           <div className="flex h-full w-full flex-col items-center gap-2 md:w-1/4">
             <Image
@@ -105,7 +105,7 @@ const CheckOut: React.FC = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

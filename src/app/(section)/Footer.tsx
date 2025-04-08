@@ -20,12 +20,16 @@ const Footer: React.FC = () => {
           <h3 className="tex-[13px] text-center font-montserrat font-semibold tracking-[1.08px] text-white md:text-start">
             Contact
           </h3>
-          <span className="text-center font-cormorant text-[12px] font-normal italic leading-[20px] text-white opacity-60 md:text-start">
+          <span className="text-center font-cormorant text-lg font-normal italic leading-[20px] text-white opacity-60 md:text-start">
             <Link href={""} target="_blank">
-              240 Hertford Rd, London EN3 5BL, United Kingdom
+              240 Hertford Rd, London <br /> EN3 5BL, United Kingdom
             </Link>
             {/* <br /> <Link href={""}>E-mail:dolcino@qodeinteractive.com</Link>{" "} */}
-            <br /> <Link href={"tel:+442083749043"}>+442083749043</Link>
+          </span>
+
+          <span className="text-center font-cormorant text-lg font-normal italic leading-[20px] text-white opacity-60 md:text-start">
+            <Link href={"tel:+442083749043"}>+442083749043</Link>
+            {/* <br /> <Link href={""}>E-mail:dolcino@qodeinteractive.com</Link>{" "} */}
           </span>
         </div>
         <div className="flex flex-col items-center justify-center gap-4">
@@ -57,7 +61,7 @@ const Footer: React.FC = () => {
                   <Link href="/">Home</Link>
                 </Button>
               </li>
-{/*               <li>
+              {/*               <li>
                 {" "}
                 <Button
                   asChild
